@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - img "Good Night" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: כתובת מייל
+        - textbox "your@email.com" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]: סיסמה
+        - textbox "••••••••" [ref=e11]
+      - button "כניסה" [ref=e12]
+    - paragraph [ref=e13]:
+      - text: עדיין לא רשום?
+      - link "הצטרף עכשיו" [ref=e14] [cursor=pointer]:
+        - /url: /register
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]:
+    - img [ref=e21]
+  - alert [ref=e24]

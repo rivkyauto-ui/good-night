@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #181e26;
+  --foreground: #f5f0e8;
+  --amber: #e5af5c;
+  --amber-light: #ecca85;
+  --card: linear-gradient(160deg, #232b36 0%, #1c2330 100%);
+  --card-bg: #1c2330;
+  --card-border: #2e3a48;
+  --muted: #6b7a8d;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  --card-top-border: rgba(255, 255, 255, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+input[type="date"] {
+  color-scheme: dark;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: radial-gradient(ellipse at top, #1c2738 0%, #181e26 45%);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+  direction: rtl;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}

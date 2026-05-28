@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e6]
+    - heading "בקרה — עתיקא" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - paragraph [ref=e9]: מחירון נוכחי
+      - generic [ref=e10]:
+        - generic [ref=e11]: יחידה
+        - generic [ref=e12]: אמצ"ש
+        - generic [ref=e13]: סופ"ש
+        - generic [ref=e14]: שיא
+        - generic [ref=e15]: יחידה א
+        - generic [ref=e16]: ₪600
+        - generic [ref=e17]: ₪700
+        - generic [ref=e18]: ₪900
+      - generic [ref=e19]:
+        - text: "תוספת מזרון:"
+        - strong [ref=e20]: ‏100 ‏₪
+        - text: ללילה
+    - group [ref=e21]:
+      - generic "היסטוריית מחירונים ▼" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: היסטוריית מחירונים
+        - generic [ref=e24]: ▼
+    - generic [ref=e25]:
+      - searchbox "חיפוש לפי שם אורח או מספר הזמנה..." [ref=e26]
+      - img
+    - generic [ref=e28]: 5 הזמנות
+    - generic [ref=e29]:
+      - group [ref=e30]:
+        - generic "ORD-0005 אורח בדיקה 05.06.26 – 08.06.26 ‏1,500 ‏₪ ▼" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: ORD-0005
+            - generic [ref=e34]: אורח בדיקה
+            - generic [ref=e35]: 05.06.26 – 08.06.26
+          - generic [ref=e36]:
+            - generic [ref=e37]: ‏1,500 ‏₪
+            - generic [ref=e38]: ▼
+      - group [ref=e39]:
+        - generic "ORD-0004 אורח בדיקה 28.05.26 – 30.05.26 ‏1,000 ‏₪ ▼" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: ORD-0004
+            - generic [ref=e43]: אורח בדיקה
+            - generic [ref=e44]: 28.05.26 – 30.05.26
+          - generic [ref=e45]:
+            - generic [ref=e46]: ‏1,000 ‏₪
+            - generic [ref=e47]: ▼
+      - group [ref=e48]:
+        - generic "ORD-0003 ישראל ישראלי 10.06.26 – 12.06.26 ‏1,000 ‏₪ ▼" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: ORD-0003
+            - generic [ref=e52]: ישראל ישראלי
+            - generic [ref=e53]: 10.06.26 – 12.06.26
+          - generic [ref=e54]:
+            - generic [ref=e55]: ‏1,000 ‏₪
+            - generic [ref=e56]: ▼
+      - group [ref=e57]:
+        - generic "ORD-0002 רבקה 27.05.26 – 30.05.26 ‏1,500 ‏₪ ▼" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: ORD-0002
+            - generic [ref=e61]: רבקה
+            - generic [ref=e62]: 27.05.26 – 30.05.26
+          - generic [ref=e63]:
+            - generic [ref=e64]: ‏1,500 ‏₪
+            - generic [ref=e65]: ▼
+      - group [ref=e66]:
+        - generic "ORD-0001 דוד כהן 01.06.26 – 03.06.26 ‏1,000 ‏₪ ▼" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: ORD-0001
+            - generic [ref=e70]: דוד כהן
+            - generic [ref=e71]: 01.06.26 – 03.06.26
+          - generic [ref=e72]:
+            - generic [ref=e73]: ‏1,000 ‏₪
+            - generic [ref=e74]: ▼
+  - navigation [ref=e75]:
+    - generic [ref=e76]:
+      - link "ראשי" [ref=e77] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e79]
+        - generic [ref=e82]: ראשי
+      - link "הזמנות" [ref=e83] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e85]
+        - generic [ref=e89]: הזמנות
+      - link "זמינות" [ref=e90] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e92]
+        - generic [ref=e95]: זמינות
+      - link "הודעות" [ref=e96] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e98]
+        - generic [ref=e100]: הודעות
+      - link "בקרה" [ref=e101] [cursor=pointer]:
+        - /url: /control
+        - img [ref=e103]
+        - generic [ref=e106]: בקרה
+      - link "הגדרות" [ref=e107] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e109]
+        - generic [ref=e112]: הגדרות
+  - button "Open Next.js Dev Tools" [ref=e118] [cursor=pointer]:
+    - img [ref=e119]

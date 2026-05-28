@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e5]
+    - generic [ref=e6]:
+      - heading "הזמנות" [level=1] [ref=e7]
+      - link "+ חדשה" [ref=e8] [cursor=pointer]:
+        - /url: /bookings/new
+    - generic [ref=e9]:
+      - link "הכל" [ref=e10] [cursor=pointer]:
+        - /url: /bookings
+      - link "שוהים עכשיו" [ref=e11] [cursor=pointer]:
+        - /url: /bookings?filter=current
+      - link "כניסות היום" [ref=e12] [cursor=pointer]:
+        - /url: /bookings?filter=checkin
+      - link "יציאות היום" [ref=e13] [cursor=pointer]:
+        - /url: /bookings?filter=checkout
+      - link "ממתינות לאישור" [ref=e14] [cursor=pointer]:
+        - /url: /bookings?filter=pending
+      - link "ממתינות לגביה" [ref=e15] [cursor=pointer]:
+        - /url: /bookings?filter=payment
+      - link "להחזר" [ref=e16] [cursor=pointer]:
+        - /url: /bookings?filter=refund
+    - 'link "ORD-0001 אושרה מקדמה דוד כהן כניסה 01.06.26 ← יציאה 03.06.26 2 לילות יחידה א ‏1,000 ‏₪ יתרה: ‏700 ‏₪" [ref=e18] [cursor=pointer]':
+      - /url: /bookings/6ea25f0a-48ac-471d-abbc-18b4913f261f
+      - generic [ref=e19]:
+        - generic [ref=e20]: ORD-0001
+        - generic [ref=e21]:
+          - generic [ref=e22]: אושרה
+          - generic [ref=e23]: מקדמה
+      - paragraph [ref=e24]: דוד כהן
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: כניסה
+          - generic [ref=e28]: 01.06.26
+        - generic [ref=e29]: ←
+        - generic [ref=e30]:
+          - generic [ref=e31]: יציאה
+          - generic [ref=e32]: 03.06.26
+        - generic [ref=e33]: 2 לילות
+      - paragraph [ref=e34]: יחידה א
+      - generic [ref=e35]:
+        - generic [ref=e36]: ‏1,000 ‏₪
+        - generic [ref=e37]: "יתרה: ‏700 ‏₪"
+  - navigation [ref=e38]:
+    - generic [ref=e39]:
+      - link "ראשי" [ref=e40] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e41]
+        - generic [ref=e44]: ראשי
+      - link "הזמנות" [ref=e45] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e46]
+        - generic [ref=e50]: הזמנות
+      - link "זמינות" [ref=e51] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e52]
+        - generic [ref=e55]: זמינות
+      - link "הזמנה חדשה" [ref=e56] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e57]
+        - generic [ref=e60]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e66] [cursor=pointer]:
+    - img [ref=e67]

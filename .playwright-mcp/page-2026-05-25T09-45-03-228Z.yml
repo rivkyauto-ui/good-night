@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e5]
+    - generic [ref=e6]:
+      - heading "יומן תפוסה" [level=1] [ref=e7]
+      - button "שבוע קודם" [ref=e8]: ›
+      - generic [ref=e9]:
+        - generic [ref=e10]: מאי 2026
+        - generic [ref=e11]: סיון תשפ"ו
+      - button "שבוע הבא" [ref=e12]: ‹
+    - generic [ref=e14]:
+      - generic [ref=e15]: פרשת בהעלתך
+      - generic [ref=e16]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: א׳
+          - generic [ref=e21]: "24"
+          - generic [ref=e22]: ח׳ סיון
+        - generic [ref=e23]:
+          - generic [ref=e24]: ב׳
+          - generic [ref=e26]: "25"
+          - generic [ref=e27]: ט׳ סיון
+        - generic [ref=e28]:
+          - generic [ref=e29]: ג׳
+          - generic [ref=e31]: "26"
+          - generic [ref=e32]: י׳ סיון
+        - generic [ref=e33]:
+          - generic [ref=e34]: ד׳
+          - generic [ref=e36]: "27"
+          - generic [ref=e37]: י"א סיון
+        - generic [ref=e38]:
+          - generic [ref=e39]: ה׳
+          - generic [ref=e41]: "28"
+          - generic [ref=e42]: י"ב סיון
+        - generic [ref=e43]:
+          - generic [ref=e44]: ו׳
+          - generic [ref=e46]: "29"
+          - generic [ref=e47]: י"ג סיון
+        - generic [ref=e48]:
+          - generic [ref=e49]: ש׳
+          - generic [ref=e51]: "30"
+          - generic [ref=e52]: י"ד סיון
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: צימר נוף הגליל
+          - generic [ref=e65]:
+            - text: 4 מיטות
+            - text: 2 מזרונים
+        - generic [ref=e66]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]: משפחת לוי
+            - img [ref=e79]
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e86]: רחל אברהם
+            - img [ref=e88]
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: צימר נחל
+          - generic [ref=e96]:
+            - text: 2 מיטות
+            - text: 1 מזרונים
+        - generic [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]:
+            - img [ref=e108]
+            - generic [ref=e110]: משפחת כהן
+          - img [ref=e112]
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: צימר הרים
+          - generic [ref=e120]:
+            - text: 6 מיטות
+            - text: 3 מזרונים
+        - generic [ref=e121]:
+          - generic [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]: משפחת ישראלי
+            - img [ref=e134]
+          - generic [ref=e139] [cursor=pointer]:
+            - generic [ref=e141]: זוג גולדשטיין
+            - img [ref=e143]
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]: בקתת עמק
+          - generic [ref=e151]:
+            - text: 3 מיטות
+            - text: 2 מזרונים
+        - generic [ref=e161] [cursor=pointer]:
+          - generic [ref=e163]: ד"ר ברק שמש
+          - img [ref=e165]
+  - navigation [ref=e170]:
+    - generic [ref=e171]:
+      - link "ראשי" [ref=e172] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e173]
+        - generic [ref=e176]: ראשי
+      - link "הזמנות" [ref=e177] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e178]
+        - generic [ref=e182]: הזמנות
+      - link "זמינות" [ref=e183] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e184]
+        - generic [ref=e187]: זמינות
+      - link "הזמנה חדשה" [ref=e188] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e189]
+        - generic [ref=e192]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e198] [cursor=pointer]:
+    - img [ref=e199]

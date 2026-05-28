@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - button "← חזרה" [ref=e5]
+      - heading "פנייה לתמיכה" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: נושא הפנייה
+          - textbox "תאר בקצרה את הנושא..." [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e13]: פרטי הפנייה
+          - textbox "תאר את הבעיה או השאלה בפירוט..." [ref=e14]
+      - button "שלח פנייה" [disabled] [ref=e15]
+  - navigation [ref=e16]:
+    - generic [ref=e17]:
+      - link "ראשי" [ref=e18] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e20]
+        - generic [ref=e23]: ראשי
+      - link "הזמנות" [ref=e24] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e26]
+        - generic [ref=e30]: הזמנות
+      - link "זמינות" [ref=e31] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e33]
+        - generic [ref=e36]: זמינות
+      - link "הודעות" [ref=e37] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e39]
+        - generic [ref=e41]: הודעות
+      - link "הזמנה חדשה" [ref=e42] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e44]
+        - generic [ref=e47]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e53] [cursor=pointer]:
+    - img [ref=e54]

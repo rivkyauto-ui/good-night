@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - img "Good Night" [ref=e4]
+    - heading "בקרה" [level=1] [ref=e5]
+    - paragraph [ref=e6]: "מתחם: עתיקא · 1 הזמנות · מחיר מזרון: ‏100 ‏₪"
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: ORD-0001
+        - generic [ref=e11]: 6ea25f0a-48ac-471d-abbc-18b4913f261f
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: שם אורח
+          - generic [ref=e15]: דוד כהן
+        - generic [ref=e16]:
+          - generic [ref=e17]: טלפון
+          - generic [ref=e18]: 050-1234567
+        - generic [ref=e19]:
+          - generic [ref=e20]: מייל
+          - generic [ref=e21]: —
+        - generic [ref=e22]:
+          - generic [ref=e23]: מקור
+          - generic [ref=e24]: —
+        - generic [ref=e25]:
+          - generic [ref=e26]: כניסה
+          - generic [ref=e27]: 01.06.2026
+        - generic [ref=e28]:
+          - generic [ref=e29]: יציאה
+          - generic [ref=e30]: 03.06.2026
+        - generic [ref=e31]:
+          - generic [ref=e32]: לילות
+          - generic [ref=e33]: "2"
+        - generic [ref=e34]:
+          - generic [ref=e35]: עונה
+          - generic [ref=e36]: אמצ"ש
+        - generic [ref=e37]:
+          - generic [ref=e38]: סטטוס הזמנה
+          - generic [ref=e39]: אושרה
+        - generic [ref=e40]:
+          - generic [ref=e41]: סטטוס תשלום
+          - generic [ref=e42]: מקדמה
+        - generic [ref=e43]:
+          - generic [ref=e44]: זמן
+          - generic [ref=e45]: עתידי
+        - generic [ref=e46]:
+          - generic [ref=e47]: חפיפה
+          - generic [ref=e48]: לא
+        - generic [ref=e49]:
+          - generic [ref=e50]: אמצעי תשלום
+          - generic [ref=e51]: —
+        - generic [ref=e52]:
+          - generic [ref=e53]: נוצר
+          - generic [ref=e54]: 25.05.2026
+      - generic [ref=e55]:
+        - paragraph [ref=e56]: פירוט חישוב
+        - generic [ref=e57]:
+          - text: יחידה א
+          - generic [ref=e58]: "₪500 × 2 לילות = ‏1,000 ‏₪ → סה\"כ: ‏1,000 ‏₪"
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - text: "סה\"כ DB:"
+            - strong [ref=e61]: ‏1,000 ‏₪
+          - generic [ref=e62]:
+            - text: "סה\"כ מחושב:"
+            - strong [ref=e63]: ‏1,000 ‏₪
+          - generic [ref=e64]: ✓ תואם
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - text: "שולם:"
+          - strong [ref=e67]: ‏300 ‏₪
+        - generic [ref=e68]:
+          - text: "יתרה:"
+          - strong [ref=e69]: ‏700 ‏₪
+  - button "Open Next.js Dev Tools" [ref=e75] [cursor=pointer]:
+    - img [ref=e76]
+  - alert [ref=e79]

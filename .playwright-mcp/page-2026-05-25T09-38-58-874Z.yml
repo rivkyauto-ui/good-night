@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e6]
+      - generic [ref=e8]: עתיקא
+    - generic [ref=e9]:
+      - heading "בקרה" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]: 3 הזמנות
+        - link "← ראשי" [ref=e13] [cursor=pointer]:
+          - /url: /dashboard
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: מחירון נוכחי
+      - generic [ref=e16]:
+        - generic [ref=e17]: יחידה
+        - generic [ref=e18]: אמצ"ש
+        - generic [ref=e19]: סופ"ש
+        - generic [ref=e20]: שיא
+        - generic [ref=e21]: יחידה א
+        - generic [ref=e22]: ₪500
+        - generic [ref=e23]: ₪700
+        - generic [ref=e24]: ₪900
+      - generic [ref=e25]:
+        - text: "תוספת מזרון:"
+        - strong [ref=e26]: ‏100 ‏₪
+        - text: ללילה
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: ORD-0003
+          - generic [ref=e31]: 81dfc5b4-ec35-4505-a441-abf594adba27
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: שם אורח
+            - generic [ref=e35]: ישראל ישראלי
+          - generic [ref=e36]:
+            - generic [ref=e37]: טלפון
+            - generic [ref=e38]: 054-9876543
+          - generic [ref=e39]:
+            - generic [ref=e40]: מייל
+            - generic [ref=e41]: —
+          - generic [ref=e42]:
+            - generic [ref=e43]: מקור
+            - generic [ref=e44]: —
+          - generic [ref=e45]:
+            - generic [ref=e46]: כניסה
+            - generic [ref=e47]: 10.06.2026
+          - generic [ref=e48]:
+            - generic [ref=e49]: יציאה
+            - generic [ref=e50]: 12.06.2026
+          - generic [ref=e51]:
+            - generic [ref=e52]: לילות
+            - generic [ref=e53]: "2"
+          - generic [ref=e54]:
+            - generic [ref=e55]: עונה
+            - generic [ref=e56]: אמצ"ש
+          - generic [ref=e57]:
+            - generic [ref=e58]: סטטוס הזמנה
+            - generic [ref=e59]: ממתינה לאישור
+          - generic [ref=e60]:
+            - generic [ref=e61]: סטטוס תשלום
+            - generic [ref=e62]: מקדמה
+          - generic [ref=e63]:
+            - generic [ref=e64]: זמן
+            - generic [ref=e65]: עתידי
+          - generic [ref=e66]:
+            - generic [ref=e67]: חפיפה
+            - generic [ref=e68]: לא
+          - generic [ref=e69]:
+            - generic [ref=e70]: אמצעי תשלום
+            - generic [ref=e71]: —
+          - generic [ref=e72]:
+            - generic [ref=e73]: נוצר
+            - generic [ref=e74]: 25.05.2026
+          - generic [ref=e75]:
+            - generic [ref=e76]: מחיר מזרון ששמור
+            - generic [ref=e77]: ₪100
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: פירוט חישוב
+          - generic [ref=e80]:
+            - generic [ref=e82]: יחידה א
+            - generic [ref=e83]: "₪500 × 2 ל׳ = ‏1,000 ‏₪ → צפוי: ‏1,000 ‏₪ → שמור: ‏1,000 ‏₪"
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - text: "סה\"כ DB:"
+              - strong [ref=e86]: ‏1,000 ‏₪
+            - generic [ref=e87]:
+              - text: "סה\"כ מחושב:"
+              - strong [ref=e88]: ‏1,000 ‏₪
+            - generic [ref=e89]: ✓ תואם
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - text: "שולם:"
+            - strong [ref=e92]: ‏0 ‏₪
+          - generic [ref=e93]:
+            - text: "יתרה:"
+            - strong [ref=e94]: ‏1,000 ‏₪
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: ORD-0002
+          - generic [ref=e98]: d38691a8-2d6c-41b1-820f-5f63458ff245
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: שם אורח
+            - generic [ref=e102]: רבקה
+          - generic [ref=e103]:
+            - generic [ref=e104]: טלפון
+            - generic [ref=e105]: "0527130916"
+          - generic [ref=e106]:
+            - generic [ref=e107]: מייל
+            - generic [ref=e108]: aderet20@gmail.com
+          - generic [ref=e109]:
+            - generic [ref=e110]: מקור
+            - generic [ref=e111]: המלצה
+          - generic [ref=e112]:
+            - generic [ref=e113]: כניסה
+            - generic [ref=e114]: 27.05.2026
+          - generic [ref=e115]:
+            - generic [ref=e116]: יציאה
+            - generic [ref=e117]: 30.05.2026
+          - generic [ref=e118]:
+            - generic [ref=e119]: לילות
+            - generic [ref=e120]: "3"
+          - generic [ref=e121]:
+            - generic [ref=e122]: עונה
+            - generic [ref=e123]: אמצ"ש
+          - generic [ref=e124]:
+            - generic [ref=e125]: סטטוס הזמנה
+            - generic [ref=e126]: ממתינה לאישור
+          - generic [ref=e127]:
+            - generic [ref=e128]: סטטוס תשלום
+            - generic [ref=e129]: מקדמה
+          - generic [ref=e130]:
+            - generic [ref=e131]: זמן
+            - generic [ref=e132]: עתידי
+          - generic [ref=e133]:
+            - generic [ref=e134]: חפיפה
+            - generic [ref=e135]: לא
+          - generic [ref=e136]:
+            - generic [ref=e137]: אמצעי תשלום
+            - generic [ref=e138]: —
+          - generic [ref=e139]:
+            - generic [ref=e140]: נוצר
+            - generic [ref=e141]: 25.05.2026
+          - generic [ref=e142]:
+            - generic [ref=e143]: מחיר מזרון ששמור
+            - generic [ref=e144]: ₪100
+        - generic [ref=e145]:
+          - paragraph [ref=e146]: פירוט חישוב
+          - generic [ref=e147]:
+            - generic [ref=e149]: יחידה א
+            - generic [ref=e150]: "₪500 × 3 ל׳ = ‏1,500 ‏₪ → צפוי: ‏1,500 ‏₪ → שמור: ‏1,500 ‏₪"
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - text: "סה\"כ DB:"
+              - strong [ref=e153]: ‏1,500 ‏₪
+            - generic [ref=e154]:
+              - text: "סה\"כ מחושב:"
+              - strong [ref=e155]: ‏1,500 ‏₪
+            - generic [ref=e156]: ✓ תואם
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - text: "שולם:"
+            - strong [ref=e159]: ‏0 ‏₪
+          - generic [ref=e160]:
+            - text: "יתרה:"
+            - strong [ref=e161]: ‏1,500 ‏₪
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: ORD-0001
+          - generic [ref=e165]: 6ea25f0a-48ac-471d-abbc-18b4913f261f
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: שם אורח
+            - generic [ref=e169]: דוד כהן
+          - generic [ref=e170]:
+            - generic [ref=e171]: טלפון
+            - generic [ref=e172]: 050-1234567
+          - generic [ref=e173]:
+            - generic [ref=e174]: מייל
+            - generic [ref=e175]: —
+          - generic [ref=e176]:
+            - generic [ref=e177]: מקור
+            - generic [ref=e178]: —
+          - generic [ref=e179]:
+            - generic [ref=e180]: כניסה
+            - generic [ref=e181]: 01.06.2026
+          - generic [ref=e182]:
+            - generic [ref=e183]: יציאה
+            - generic [ref=e184]: 03.06.2026
+          - generic [ref=e185]:
+            - generic [ref=e186]: לילות
+            - generic [ref=e187]: "2"
+          - generic [ref=e188]:
+            - generic [ref=e189]: עונה
+            - generic [ref=e190]: אמצ"ש
+          - generic [ref=e191]:
+            - generic [ref=e192]: סטטוס הזמנה
+            - generic [ref=e193]: אושרה
+          - generic [ref=e194]:
+            - generic [ref=e195]: סטטוס תשלום
+            - generic [ref=e196]: מקדמה
+          - generic [ref=e197]:
+            - generic [ref=e198]: זמן
+            - generic [ref=e199]: עתידי
+          - generic [ref=e200]:
+            - generic [ref=e201]: חפיפה
+            - generic [ref=e202]: לא
+          - generic [ref=e203]:
+            - generic [ref=e204]: אמצעי תשלום
+            - generic [ref=e205]: —
+          - generic [ref=e206]:
+            - generic [ref=e207]: נוצר
+            - generic [ref=e208]: 25.05.2026
+          - generic [ref=e209]:
+            - generic [ref=e210]: מחיר מזרון ששמור
+            - generic [ref=e211]: ישן — אין snapshot
+        - generic [ref=e212]:
+          - paragraph [ref=e213]: פירוט חישוב
+          - generic [ref=e214]:
+            - generic [ref=e216]: יחידה א
+            - generic [ref=e217]: "ישן — אין snapshot מחיר → שמור: ‏1,000 ‏₪"
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - text: "סה\"כ DB:"
+              - strong [ref=e220]: ‏1,000 ‏₪
+            - generic [ref=e221]:
+              - text: "סה\"כ מחושב:"
+              - strong [ref=e222]: ‏1,000 ‏₪
+            - generic [ref=e223]: ✓ תואם
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - text: "שולם:"
+            - strong [ref=e226]: ‏300 ‏₪
+          - generic [ref=e227]:
+            - text: "יתרה:"
+            - strong [ref=e228]: ‏700 ‏₪
+  - navigation [ref=e229]:
+    - generic [ref=e230]:
+      - link "ראשי" [ref=e231] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e232]
+        - generic [ref=e235]: ראשי
+      - link "הזמנות" [ref=e236] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e237]
+        - generic [ref=e241]: הזמנות
+      - link "זמינות" [ref=e242] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e243]
+        - generic [ref=e246]: זמינות
+      - link "הזמנה חדשה" [ref=e247] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e248]
+        - generic [ref=e251]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e257] [cursor=pointer]:
+    - img [ref=e258]

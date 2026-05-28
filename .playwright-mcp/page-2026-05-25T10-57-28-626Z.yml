@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Good Night" [ref=e5]
+        - paragraph [ref=e6]: מערכת ניהול חכמה למתחמי אירוח
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]: שם מלא
+          - textbox "ישראל ישראלי" [ref=e10]
+        - generic [ref=e11]:
+          - generic [ref=e12]: טלפון
+          - textbox "050-0000000" [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15]: מייל
+          - textbox "your@email.com" [ref=e16]
+        - generic [ref=e17]:
+          - generic [ref=e18]: שם המתחם
+          - textbox "צימר הכוכבים" [ref=e19]
+        - button "שליחה" [ref=e20] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e26] [cursor=pointer]:
+    - img [ref=e27]
+  - alert [ref=e30]

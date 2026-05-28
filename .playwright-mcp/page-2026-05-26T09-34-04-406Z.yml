@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e5]
+      - generic [ref=e6]: ניהול מערכת
+    - link "← המתחם שלי" [ref=e7] [cursor=pointer]:
+      - /url: /dashboard
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: מתחמים פעילים
+        - paragraph [ref=e11]: "1"
+      - textbox "חיפוש מתחם / בעלים / מייל..." [ref=e14]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - paragraph [ref=e18]: שירות לקוחות
+        - generic [ref=e19]: "1"
+      - button "בעיה בכניסה למערכת עתיקא 26.05.26 ▼" [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: בעיה בכניסה למערכת
+            - paragraph [ref=e28]: עתיקא
+            - paragraph [ref=e29]: 26.05.26
+          - generic [ref=e30]: ▼
+    - generic [ref=e32]:
+      - paragraph [ref=e34]: תור אישורים
+      - paragraph [ref=e36]: אין בקשות ממתינות ✓
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: לידים
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: פניות חדשות
+          - generic [ref=e42]: "1"
+        - button "דני כהן בקתות היער · 052-1234567 25.05.26 חדש ▼" [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: דני כהן
+              - paragraph [ref=e50]: בקתות היער · 052-1234567
+              - paragraph [ref=e51]: 25.05.26
+            - generic [ref=e53]:
+              - generic [ref=e54]: חדש
+              - generic [ref=e55]: ▼
+      - generic [ref=e56]:
+        - paragraph [ref=e58]: פניות בטיפול
+        - paragraph [ref=e60]: אין פניות בטיפול
+  - button "Open Next.js Dev Tools" [ref=e66] [cursor=pointer]:
+    - img [ref=e67]
+  - alert [ref=e70]

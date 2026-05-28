@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e5]
+    - heading "הגדרות" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - heading "פרטי המתחם" [level=2] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: שם המתחם *
+          - textbox "שם המתחם" [ref=e12]: עתיקא
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: טלפון ראשי
+            - textbox "050-0000000" [ref=e16]: "0527130916"
+          - generic [ref=e17]:
+            - generic [ref=e18]: טלפון משני
+            - textbox "050-0000000" [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: מייל
+          - textbox "mail@example.com" [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: מחיר מזרון (₪ ללילה)
+            - spinbutton [ref=e26]: "100"
+          - generic [ref=e27]:
+            - generic [ref=e28]: סוג חבילה
+            - textbox "בסיסי / פרימיום..." [ref=e29]
+        - button "שמור פרטי מתחם" [ref=e30]
+    - generic [ref=e31]:
+      - heading "יחידות" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - paragraph [ref=e108]: יחידה א
+            - generic [ref=e109]:
+              - button "▲" [disabled] [ref=e110]
+              - button "▼" [disabled] [ref=e111]
+            - button "ערוך" [ref=e112]:
+              - img [ref=e113]
+            - button "מחק" [ref=e116]:
+              - img [ref=e117]
+          - generic [ref=e122]: 2 מיטות · מקס׳ 2 מזרונים
+          - generic [ref=e123]:
+            - generic [ref=e124]: "אמצ\"ש: ₪500"
+            - generic [ref=e125]: "סופ\"ש: ₪700"
+            - generic [ref=e126]: "שיא: ₪900"
+        - button "+ הוסף יחידה" [ref=e127]:
+          - generic [ref=e128]: +
+          - text: הוסף יחידה
+  - navigation [ref=e36]:
+    - generic [ref=e37]:
+      - link "ראשי" [ref=e38] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e39]
+        - generic [ref=e42]: ראשי
+      - link "הזמנות" [ref=e43] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e44]
+        - generic [ref=e48]: הזמנות
+      - link "זמינות" [ref=e49] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e50]
+        - generic [ref=e53]: זמינות
+      - link "הזמנה חדשה" [ref=e54] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e55]
+        - generic [ref=e58]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]

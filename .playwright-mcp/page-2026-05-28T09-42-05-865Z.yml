@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e6]
+      - generic [ref=e7]:
+        - heading "הזמנה חדשה ← עתיקא" [level=1] [ref=e8]
+        - link "→ הזמנות" [ref=e9] [cursor=pointer]:
+          - /url: /bookings
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - img [ref=e12]
+          - generic [ref=e15]: פרטי אורח
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: שם אורח *
+            - textbox "שם מלא" [ref=e19]
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - generic [ref=e22]: טלפון *
+              - textbox "050-0000000" [ref=e23]
+            - generic [ref=e24]:
+              - generic [ref=e25]: מייל
+              - textbox "mail@example.com" [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e31]: תאריכים
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: כניסה *
+              - textbox [ref=e36]
+            - generic [ref=e37]:
+              - generic [ref=e38]: יציאה *
+              - textbox [ref=e39]
+          - generic [ref=e40]:
+            - generic [ref=e41]: עונה *
+            - generic [ref=e42]:
+              - button "אמצ\"ש" [ref=e43]
+              - button "סופ\"ש" [ref=e44]
+              - button "שיא עונה / חגים" [ref=e45]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - generic [ref=e53]: יחידות
+        - generic [ref=e57] [cursor=pointer]:
+          - checkbox "יחידה א 2 מיטות · מקס׳ 2 מזרונים · ₪600/ל׳" [ref=e58]
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: יחידה א
+            - paragraph [ref=e61]: 2 מיטות · מקס׳ 2 מזרונים · ₪600/ל׳
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - img [ref=e64]
+          - generic [ref=e66]: תשלום
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: הנחה
+            - generic [ref=e70]:
+              - button "כוללת" [ref=e71]
+              - button "לפי לילה" [ref=e72]
+            - generic [ref=e73]:
+              - generic: ₪
+              - spinbutton [ref=e74]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: שולם
+              - generic [ref=e78]:
+                - generic: ₪
+                - spinbutton [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]: אמצעי תשלום
+              - combobox [ref=e82]:
+                - option "בחר..." [selected]
+                - option "מזומן"
+                - option "העברה בנקאית"
+                - option "ביט / פייבוקס"
+                - option "כרטיס אשראי"
+          - paragraph [ref=e83]: ללא תשלום — ההזמנה תישמר כ"ממתינה לאישור"
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - img [ref=e86]
+          - generic [ref=e88]: נוספות
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: מקור הזמנה
+            - combobox [ref=e92]:
+              - option "בחר..." [selected]
+              - option "ישיר"
+              - option "Booking.com"
+              - option "Airbnb"
+              - option "המלצה"
+              - option "אחר"
+          - generic [ref=e93]:
+            - generic [ref=e94]: הערות
+            - textbox "הערות נוספות..." [ref=e95]
+      - button "שמור הזמנה" [ref=e96]
+  - navigation [ref=e97]:
+    - generic [ref=e98]:
+      - link "ראשי" [ref=e99] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e101]
+        - generic [ref=e104]: ראשי
+      - link "הזמנות" [ref=e105] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e107]
+        - generic [ref=e111]: הזמנות
+      - link "זמינות" [ref=e112] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e114]
+        - generic [ref=e117]: זמינות
+      - link "הודעות" [ref=e118] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e120]
+        - generic [ref=e122]: הודעות
+      - link "בקרה" [ref=e123] [cursor=pointer]:
+        - /url: /control
+        - img [ref=e125]
+        - generic [ref=e128]: בקרה
+      - link "הגדרות" [ref=e129] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e131]
+        - generic [ref=e134]: הגדרות
+  - button "Open Next.js Dev Tools" [ref=e140] [cursor=pointer]:
+    - img [ref=e141]

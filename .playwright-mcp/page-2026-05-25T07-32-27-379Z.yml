@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e6]
+      - generic [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: /bookings
+          - img [ref=e9]
+        - heading "הזמנה חדשה" [level=1] [ref=e11]
+      - generic [ref=e12]:
+        - heading "פרטי אורח" [level=2] [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15]: שם אורח *
+          - textbox "שם מלא" [ref=e16]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: טלפון *
+            - textbox "050-0000000" [ref=e20]
+          - generic [ref=e21]:
+            - generic [ref=e22]: מייל
+            - textbox "mail@example.com" [ref=e23]
+      - generic [ref=e24]:
+        - heading "תאריכים" [level=2] [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: כניסה *
+            - textbox [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31]: יציאה *
+            - textbox [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e34]: עונה *
+          - generic [ref=e35]:
+            - button "אמצ\"ש" [ref=e36]
+            - button "סופ\"ש" [ref=e37]
+            - button "שיא עונה / חגים" [ref=e38]
+      - generic [ref=e39]:
+        - heading "יחידות" [level=2] [ref=e40]
+        - generic [ref=e43] [cursor=pointer]:
+          - checkbox "יחידה א 2 מיטות · מקס׳ 2 מזרונים · ₪500/ל׳" [ref=e44]
+          - generic [ref=e45]:
+            - paragraph [ref=e46]: יחידה א
+            - paragraph [ref=e47]: 2 מיטות · מקס׳ 2 מזרונים · ₪500/ל׳
+      - generic [ref=e48]:
+        - heading "תשלום" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: הנחה
+          - generic [ref=e52]:
+            - button "כוללת" [ref=e53]
+            - button "לפי לילה" [ref=e54]
+          - generic [ref=e55]:
+            - generic: ₪
+            - spinbutton [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: שולם
+            - generic [ref=e60]:
+              - generic: ₪
+              - spinbutton [ref=e61]
+          - generic [ref=e62]:
+            - generic [ref=e63]: אמצעי תשלום
+            - combobox [ref=e64]:
+              - option "בחר..." [selected]
+              - option "מזומן"
+              - option "העברה בנקאית"
+              - option "ביט / פייבוקס"
+              - option "כרטיס אשראי"
+        - paragraph [ref=e65]: ללא תשלום — ההזמנה תישמר כ"ממתינה לאישור"
+      - generic [ref=e66]:
+        - heading "נוספות" [level=2] [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]: מקור הזמנה
+          - combobox [ref=e70]:
+            - option "בחר..." [selected]
+            - option "ישיר"
+            - option "Booking.com"
+            - option "Airbnb"
+            - option "המלצה"
+            - option "אחר"
+        - generic [ref=e71]:
+          - generic [ref=e72]: הערות
+          - textbox "הערות נוספות..." [ref=e73]
+      - button "שמור הזמנה" [ref=e74]
+  - navigation [ref=e75]:
+    - generic [ref=e76]:
+      - link "ראשי" [ref=e77] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e78]
+        - generic [ref=e81]: ראשי
+      - link "הזמנות" [ref=e82] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e83]
+        - generic [ref=e87]: הזמנות
+      - link "זמינות" [ref=e88] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e89]
+        - generic [ref=e92]: זמינות
+      - link "הזמנה חדשה" [ref=e93] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e94]
+        - generic [ref=e97]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e103] [cursor=pointer]:
+    - img [ref=e104]
+  - alert [ref=e107]

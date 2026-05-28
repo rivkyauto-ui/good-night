@@ -1,0 +1,3080 @@
+[     347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    2602ms] [LOG] [Fast Refresh] done in 2364ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    3193ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    3211ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  216431ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218087ms] [LOG] [Fast Refresh] done in 1759ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218204ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218260ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218687ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218723ms] [LOG] %c%s%c [BookingDetailPage] id = background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   6ea25f0a-48ac-471d-abbc-18b4913f261f @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218750ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  218878ms] [LOG] [Fast Refresh] done in 127ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  219212ms] [LOG] %c%s%c [BookingDetailPage] id = background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   6ea25f0a-48ac-471d-abbc-18b4913f261f @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  252636ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  252647ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  252702ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  252802ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  252853ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  252907ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  252961ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  253005ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  253053ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  253184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  253190ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  253302ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  254153ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  254255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  255235ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  255414ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  255415ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/bookings/6ea25f0a-48ac-471d-abbc-18b4913f261f?_rsc=STGX77JoWTGvRFdq:0
+[  255480ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  255538ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  255590ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/bookings/6ea25f0a-48ac-471d-abbc-18b4913f261f:0
+[  255702ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  255776ms] Error: ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/bookings/[id]/page.tsx:98:7)
+    at Object.getCompilationErrors (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\base-server.js:1753:26)
+[  255778ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  255781ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  255872ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  255921ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  255973ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256026ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256089ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256155ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256205ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256257ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256322ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256373ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256436ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256488ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256539ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256618ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  256682ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256739ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256790ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256855ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256918ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  256972ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257035ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257088ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257151ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257205ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257257ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257321ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257385ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257440ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257491ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257555ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257606ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257661ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257709ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257757ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257819ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257883ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  257937ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  258038ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258103ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258164ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258223ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258271ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258323ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258385ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258440ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258503ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258555ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258618ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258671ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258722ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258772ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258823ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258872ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258924ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  258974ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259038ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259089ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259140ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259190ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259256ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259321ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  259389ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259438ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259490ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259539ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259605ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259672ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259722ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259789ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259839ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259902ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  259955ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260007ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260057ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260123ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260186ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260232ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260287ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260337ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260400ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260455ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260504ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260555ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260622ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  260772ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260821ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260871ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260934ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  260988ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261051ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261106ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261173ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261235ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261289ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261341ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261406ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261471ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261522ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261585ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261648ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261706ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261758ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261822ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261873ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261926ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  261982ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262047ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262108ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262156ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262205ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262269ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262322ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262384ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262446ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262502ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262557ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262622ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262684ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262747ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262806ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262858ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262921ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  262984ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263048ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263111ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263173ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263237ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263300ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263352ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263413ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263477ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263540ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263604ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263654ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263705ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263757ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263812ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263871ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263922ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  263973ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264022ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264087ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264139ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264193ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264254ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264304ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264356ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264421ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264471ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264521ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264571ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264622ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264678ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264740ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  264859ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264924ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  264989ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265038ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265087ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265139ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265190ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265255ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265309ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265372ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265435ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265488ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265538ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265604ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265669ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265722ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265784ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265839ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265902ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  265956ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266006ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266065ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  266205ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266256ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266305ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266356ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266405ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266454ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266505ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266555ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266621ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266672ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266737ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266800ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266853ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266922ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  266985ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267039ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267102ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267155ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267207ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267255ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267307ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267358ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267422ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267485ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267547ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267609ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267676ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267739ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267798ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267862ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267922ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  267984ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268042ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268105ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268168ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268231ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268290ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268339ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268401ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268464ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268525ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268581ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268639ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268704ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268755ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268805ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268856ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268920ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  268973ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269025ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269089ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269153ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269204ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269255ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269314ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269376ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269443ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269491ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269540ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269591ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269658ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269708ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269759ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269822ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269879ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269927ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  269977ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270031ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270092ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270157ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270223ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270274ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270339ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270390ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270441ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270493ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270556ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270622ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270672ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270738ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270789ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270839ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270903ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  270952ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  271003ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  271071ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  271121ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  271184ms] [ERROR] ./app/bookings/[id]/page.tsx:98:7
+Expected ';', got ')'
+   96 |           }
+   97 |         : null,
+>  98 |     })),
+      |       ^
+   99 |   };
+  100 |
+  101 |   return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} />;
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  271219ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  271285ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  271558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  271836ms] [LOG] [Fast Refresh] done in 380ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  272479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/bookings/6ea25f0a-48ac-471d-abbc-18b4913f261f:0
+[  272531ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  272546ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  272550ms] [LOG] %c%s%c [BookingDetailPage] id = background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   6ea25f0a-48ac-471d-abbc-18b4913f261f @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

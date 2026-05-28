@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Good Night" [ref=e5]
+        - paragraph [ref=e6]: מערכת ניהול חכמה למתחמי אירוח
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: ✓
+        - paragraph [ref=e33]: קיבלנו את פרטיך!
+        - paragraph [ref=e34]: ניצור איתך קשר בהקדם
+  - button "Open Next.js Dev Tools" [ref=e26] [cursor=pointer]:
+    - img [ref=e27]
+  - alert [ref=e30]

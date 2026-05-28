@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - main [ref=e122]:
+    - generic [ref=e123]:
+      - link "→ הזמנות" [ref=e124] [cursor=pointer]:
+        - /url: /bookings
+      - generic [ref=e125]: ORD-0003
+    - generic [ref=e126]:
+      - paragraph [ref=e127]: ✓ ההזמנה נשמרה בהצלחה
+      - link "לדשבורד" [ref=e128] [cursor=pointer]:
+        - /url: /dashboard
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - heading "ישראל ישראלי" [level=1] [ref=e131]
+        - generic [ref=e132]:
+          - generic [ref=e133]: ממתינה לאישור
+          - generic [ref=e134]: טרם שולם
+      - link "054-9876543" [ref=e135] [cursor=pointer]:
+        - /url: tel:054-9876543
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: כניסה
+          - paragraph [ref=e140]: 10.06.26
+        - generic [ref=e141]:
+          - paragraph [ref=e142]: יציאה
+          - paragraph [ref=e143]: 12.06.26
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: לילות
+          - paragraph [ref=e146]: "2"
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: עונה
+          - paragraph [ref=e149]: אמצ"ש
+      - paragraph [ref=e150]: הזמנה עתידית
+    - generic [ref=e151]:
+      - heading "פירוט חישוב" [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - paragraph [ref=e154]: יחידה א
+        - generic [ref=e155]:
+          - generic [ref=e156]: ₪500 × 2 לילות
+          - generic [ref=e157]: ‏1,000 ‏₪
+      - generic [ref=e159]:
+        - generic [ref=e160]: סה״כ
+        - generic [ref=e161]: ‏1,000 ‏₪
+    - generic [ref=e162]:
+      - heading "תשלום" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - generic [ref=e165]: שולם
+        - generic [ref=e166]: ‏0 ‏₪
+      - generic [ref=e167]:
+        - generic [ref=e168]: יתרה לתשלום
+        - generic [ref=e169]: ‏1,000 ‏₪
+    - generic [ref=e170]:
+      - heading "פעולות" [level=2] [ref=e171]
+      - button "הועברה מקדמה" [ref=e172]
+      - button "בטל הזמנה" [ref=e173]
+    - paragraph [ref=e175]: "נוצר: 25.05.26"
+  - navigation [ref=e75]:
+    - generic [ref=e76]:
+      - link "ראשי" [ref=e77] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e78]
+        - generic [ref=e81]: ראשי
+      - link "הזמנות" [ref=e82] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e83]
+        - generic [ref=e87]: הזמנות
+      - link "זמינות" [ref=e88] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e89]
+        - generic [ref=e92]: זמינות
+      - link "הזמנה חדשה" [ref=e93] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e94]
+        - generic [ref=e97]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e103] [cursor=pointer]:
+    - img [ref=e104]
+  - alert [ref=e107]

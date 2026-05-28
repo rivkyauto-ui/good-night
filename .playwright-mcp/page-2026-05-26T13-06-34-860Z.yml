@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e6]
+      - generic [ref=e7]: ניהול מערכת
+    - generic [ref=e8]:
+      - heading "בקרה — עתיקא" [level=1] [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]: 3 הזמנות
+        - link "← חזור לניהול" [ref=e12] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: מחירון נוכחי
+      - generic [ref=e15]:
+        - generic [ref=e16]: יחידה
+        - generic [ref=e17]: אמצ"ש
+        - generic [ref=e18]: סופ"ש
+        - generic [ref=e19]: שיא
+        - generic [ref=e20]: יחידה א
+        - generic [ref=e21]: ₪550
+        - generic [ref=e22]: ₪700
+        - generic [ref=e23]: ₪900
+      - generic [ref=e24]:
+        - text: "תוספת מזרון:"
+        - strong [ref=e25]: ‏100 ‏₪
+        - text: ללילה
+    - group [ref=e26]:
+      - generic "היסטוריית מחירונים (1 שינויים) ▼" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: היסטוריית מחירונים (1 שינויים)
+        - generic [ref=e29]: ▼
+    - generic [ref=e30]:
+      - group [ref=e31]:
+        - generic "ORD-0003 ישראל ישראלי 10.06.26 – 12.06.26 ‏1,000 ‏₪ ▼" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: ORD-0003
+            - generic [ref=e35]: ישראל ישראלי
+            - generic [ref=e36]: 10.06.26 – 12.06.26
+          - generic [ref=e37]:
+            - generic [ref=e38]: ‏1,000 ‏₪
+            - generic [ref=e39]: ▼
+      - group [ref=e40]:
+        - generic "ORD-0002 רבקה 27.05.26 – 30.05.26 ‏1,500 ‏₪ ▼" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: ORD-0002
+            - generic [ref=e44]: רבקה
+            - generic [ref=e45]: 27.05.26 – 30.05.26
+          - generic [ref=e46]:
+            - generic [ref=e47]: ‏1,500 ‏₪
+            - generic [ref=e48]: ▼
+      - group [ref=e49]:
+        - generic "ORD-0001 דוד כהן 01.06.26 – 03.06.26 ✗ ‏1,000 ‏₪ ▼" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: ORD-0001
+            - generic [ref=e53]: דוד כהן
+            - generic [ref=e54]: 01.06.26 – 03.06.26
+          - generic [ref=e55]:
+            - generic [ref=e56]: ✗
+            - generic [ref=e57]: ‏1,000 ‏₪
+            - generic [ref=e58]: ▼
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]

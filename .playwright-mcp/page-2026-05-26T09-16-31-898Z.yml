@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e5]
+      - generic [ref=e6]: ניהול מערכת
+    - link "← המתחם שלי" [ref=e7] [cursor=pointer]:
+      - /url: /dashboard
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: מתחמים פעילים
+        - paragraph [ref=e11]: "1"
+      - textbox "חיפוש מתחם / בעלים / מייל..." [ref=e12]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: שירות לקוחות
+      - paragraph [ref=e15]: "0"
+      - paragraph [ref=e16]: פניות ממתינות
+    - generic [ref=e18]:
+      - paragraph [ref=e20]: תור אישורים
+      - paragraph [ref=e22]: אין בקשות ממתינות ✓
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: פניות חדשות
+        - generic [ref=e27]: "1"
+      - button "דני כהן בקתות היער · 052-1234567 25.05.26 חדש ▼" [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: דני כהן
+            - paragraph [ref=e35]: בקתות היער · 052-1234567
+            - paragraph [ref=e36]: 25.05.26
+          - generic [ref=e38]:
+            - generic [ref=e39]: חדש
+            - generic [ref=e40]: ▼
+    - generic [ref=e42]:
+      - paragraph [ref=e44]: בטיפול
+      - paragraph [ref=e46]: אין לידים בטיפול
+  - button "Open Next.js Dev Tools" [ref=e52] [cursor=pointer]:
+    - img [ref=e53]
+  - alert [ref=e56]

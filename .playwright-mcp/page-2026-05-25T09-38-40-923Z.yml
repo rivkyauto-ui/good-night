@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e5]
+      - generic [ref=e7]: עתיקא
+    - generic [ref=e8]:
+      - link "→ הזמנות" [ref=e9] [cursor=pointer]:
+        - /url: /bookings
+      - generic [ref=e10]: ORD-0003
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - heading "ישראל ישראלי" [level=1] [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15]: ממתינה לאישור
+          - generic [ref=e16]: טרם שולם
+      - link "054-9876543" [ref=e17] [cursor=pointer]:
+        - /url: tel:054-9876543
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: כניסה
+          - paragraph [ref=e22]: 10.06.26
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: יציאה
+          - paragraph [ref=e25]: 12.06.26
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: לילות
+          - paragraph [ref=e28]: "2"
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: עונה
+          - paragraph [ref=e31]: אמצ"ש
+      - paragraph [ref=e32]: הזמנה עתידית
+    - generic [ref=e33]:
+      - heading "פירוט חישוב" [level=2] [ref=e34]
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: יחידה א
+        - generic [ref=e37]:
+          - generic [ref=e38]: ₪500 × 2 לילות
+          - generic [ref=e39]: ‏1,000 ‏₪
+      - generic [ref=e41]:
+        - generic [ref=e42]: סה״כ
+        - generic [ref=e43]: ‏1,000 ‏₪
+    - generic [ref=e44]:
+      - heading "תשלום" [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - generic [ref=e47]: שולם
+        - generic [ref=e48]: ‏0 ‏₪
+      - generic [ref=e49]:
+        - generic [ref=e50]: יתרה לתשלום
+        - generic [ref=e51]: ‏1,000 ‏₪
+    - generic [ref=e52]:
+      - heading "פעולות" [level=2] [ref=e53]
+      - button "הועברה מקדמה" [ref=e54]
+      - button "בטל הזמנה" [ref=e55]
+    - paragraph [ref=e57]: "נוצר: 25.05.26"
+  - navigation [ref=e58]:
+    - generic [ref=e59]:
+      - link "ראשי" [ref=e60] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e61]
+        - generic [ref=e64]: ראשי
+      - link "הזמנות" [ref=e65] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e66]
+        - generic [ref=e70]: הזמנות
+      - link "זמינות" [ref=e71] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e72]
+        - generic [ref=e75]: זמינות
+      - link "הזמנה חדשה" [ref=e76] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e77]
+        - generic [ref=e80]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e86] [cursor=pointer]:
+    - img [ref=e87]
+  - alert [ref=e90]

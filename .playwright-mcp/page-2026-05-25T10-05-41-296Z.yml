@@ -1,0 +1,71 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - button "יציאה" [ref=e6]
+      - link "הגדרות" [ref=e7] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e8]
+      - img "Good Night" [ref=e11]
+      - heading "עתיקא" [level=1] [ref=e12]
+      - paragraph [ref=e13]: שלום, רבקי 👋 · יום שני, 25 במאי 2026
+    - link "הזמנה חדשה +" [ref=e14] [cursor=pointer]:
+      - /url: /bookings/new
+      - text: הזמנה חדשה
+      - generic [ref=e15]: +
+    - generic [ref=e16]:
+      - link "שוהים עכשיו 0 אין שוהים כרגע" [ref=e17] [cursor=pointer]:
+        - /url: /bookings?filter=current
+        - generic [ref=e18]:
+          - heading "שוהים עכשיו" [level=2] [ref=e19]
+          - img [ref=e20]
+        - paragraph [ref=e24]: "0"
+        - paragraph [ref=e25]: אין שוהים כרגע
+      - link "כניסות היום 0 אין כניסות" [ref=e26] [cursor=pointer]:
+        - /url: /bookings?filter=checkin
+        - generic [ref=e27]:
+          - heading "כניסות היום" [level=2] [ref=e28]
+          - img [ref=e29]
+        - paragraph [ref=e36]: "0"
+        - paragraph [ref=e37]: אין כניסות
+      - link "יציאות היום 0 אין יציאות" [ref=e38] [cursor=pointer]:
+        - /url: /bookings?filter=checkout
+        - generic [ref=e39]:
+          - heading "יציאות היום" [level=2] [ref=e40]
+          - img [ref=e41]
+        - paragraph [ref=e46]: "0"
+        - paragraph [ref=e47]: אין יציאות
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "דורש טיפול" [level=2] [ref=e51]
+          - img [ref=e52]
+        - link "ממתינות לאישור 2" [ref=e56] [cursor=pointer]:
+          - /url: /bookings?filter=pending
+          - generic [ref=e57]: ממתינות לאישור
+          - generic [ref=e58]: "2"
+      - link "תפוסה היום 0% 0 מתוך 1 יחידות תפוסות" [ref=e59] [cursor=pointer]:
+        - /url: /availability
+        - generic [ref=e60]:
+          - heading "תפוסה היום" [level=2] [ref=e61]
+          - generic [ref=e62]: 0%
+        - paragraph [ref=e64]: 0 מתוך 1 יחידות תפוסות
+  - navigation [ref=e65]:
+    - generic [ref=e66]:
+      - link "ראשי" [ref=e67] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e68]
+        - generic [ref=e71]: ראשי
+      - link "הזמנות" [ref=e72] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e73]
+        - generic [ref=e77]: הזמנות
+      - link "זמינות" [ref=e78] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e79]
+        - generic [ref=e82]: זמינות
+      - link "הזמנה חדשה" [ref=e83] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e84]
+        - generic [ref=e87]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e93] [cursor=pointer]:
+    - img [ref=e94]

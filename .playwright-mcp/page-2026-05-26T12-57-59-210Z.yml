@@ -1,0 +1,123 @@
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - img "Good Night" [ref=e6]
+      - generic [ref=e7]: ניהול מערכת
+    - generic [ref=e8]:
+      - heading "בקרה — עתיקא" [level=1] [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]: 3 הזמנות
+        - link "← חזור לניהול" [ref=e12] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: מחירון נוכחי
+      - generic [ref=e15]:
+        - generic [ref=e16]: יחידה
+        - generic [ref=e17]: אמצ"ש
+        - generic [ref=e18]: סופ"ש
+        - generic [ref=e19]: שיא
+        - generic [ref=e20]: יחידה א
+        - generic [ref=e21]: ₪500
+        - generic [ref=e22]: ₪700
+        - generic [ref=e23]: ₪900
+      - generic [ref=e24]:
+        - text: "תוספת מזרון:"
+        - strong [ref=e25]: ‏100 ‏₪
+        - text: ללילה
+    - generic [ref=e26]:
+      - group [ref=e27]:
+        - generic "ORD-0003 ישראל ישראלי 10.06.26 – 12.06.26 ‏1,000 ‏₪ ▼" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: ORD-0003
+            - generic [ref=e31]: ישראל ישראלי
+            - generic [ref=e32]: 10.06.26 – 12.06.26
+          - generic [ref=e33]:
+            - generic [ref=e34]: ‏1,000 ‏₪
+            - generic [ref=e35]: ▼
+      - group [ref=e36]:
+        - generic "ORD-0002 רבקה 27.05.26 – 30.05.26 ‏1,500 ‏₪ ▼" [active] [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: ORD-0002
+            - generic [ref=e40]: רבקה
+            - generic [ref=e41]: 27.05.26 – 30.05.26
+          - generic [ref=e42]:
+            - generic [ref=e43]: ‏1,500 ‏₪
+            - generic [ref=e44]: ▼
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: שם אורח
+              - generic [ref=e68]: רבקה
+            - generic [ref=e69]:
+              - generic [ref=e70]: טלפון
+              - generic [ref=e71]: "0527130916"
+            - generic [ref=e72]:
+              - generic [ref=e73]: מייל
+              - generic [ref=e74]: aderet20@gmail.com
+            - generic [ref=e75]:
+              - generic [ref=e76]: מקור
+              - generic [ref=e77]: המלצה
+            - generic [ref=e78]:
+              - generic [ref=e79]: כניסה
+              - generic [ref=e80]: 27.05.26
+            - generic [ref=e81]:
+              - generic [ref=e82]: יציאה
+              - generic [ref=e83]: 30.05.26
+            - generic [ref=e84]:
+              - generic [ref=e85]: לילות
+              - generic [ref=e86]: "3"
+            - generic [ref=e87]:
+              - generic [ref=e88]: עונה
+              - generic [ref=e89]: אמצ"ש
+            - generic [ref=e90]:
+              - generic [ref=e91]: סטטוס הזמנה
+              - generic [ref=e92]: ממתינה לאישור
+            - generic [ref=e93]:
+              - generic [ref=e94]: סטטוס תשלום
+              - generic [ref=e95]: מקדמה
+            - generic [ref=e96]:
+              - generic [ref=e97]: זמן
+              - generic [ref=e98]: עתידי
+            - generic [ref=e99]:
+              - generic [ref=e100]: חפיפה
+              - generic [ref=e101]: לא
+            - generic [ref=e102]:
+              - generic [ref=e103]: אמצעי תשלום
+              - generic [ref=e104]: —
+            - generic [ref=e105]:
+              - generic [ref=e106]: נוצר
+              - generic [ref=e107]: 25.05.26
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: פירוט חישוב
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: יחידה א
+                - generic [ref=e113]: snapshot
+              - generic [ref=e114]: "₪500 × 3 ל׳ = ‏1,500 ‏₪ → צפוי: ‏1,500 ‏₪ → שמור: ‏1,500 ‏₪"
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - text: "סה\"כ DB:"
+                - strong [ref=e117]: ‏1,500 ‏₪
+              - generic [ref=e118]:
+                - text: "סה\"כ מחושב:"
+                - strong [ref=e119]: ‏1,500 ‏₪
+              - generic [ref=e120]: ✓ תואם
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - text: "שולם:"
+              - strong [ref=e123]: ‏0 ‏₪
+            - generic [ref=e124]:
+              - text: "יתרה:"
+              - strong [ref=e125]: ‏1,500 ‏₪
+      - group [ref=e45]:
+        - generic "ORD-0001 דוד כהן 01.06.26 – 03.06.26 ‏1,000 ‏₪ ▼" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: ORD-0001
+            - generic [ref=e49]: דוד כהן
+            - generic [ref=e50]: 01.06.26 – 03.06.26
+          - generic [ref=e51]:
+            - generic [ref=e52]: ‏1,000 ‏₪
+            - generic [ref=e53]: ▼
+  - button "Open Next.js Dev Tools" [ref=e59] [cursor=pointer]:
+    - img [ref=e60]
+  - alert [ref=e63]

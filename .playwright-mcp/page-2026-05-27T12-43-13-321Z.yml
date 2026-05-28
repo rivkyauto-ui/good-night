@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e5]
+    - heading "הגדרות" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - heading "פרטי המתחם" [level=2] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: שם המתחם *
+          - textbox "שם המתחם" [ref=e12]: עתיקא
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: טלפון ראשי
+            - textbox "050-0000000" [ref=e16]: "0527130916"
+          - generic [ref=e17]:
+            - generic [ref=e18]: טלפון משני
+            - textbox "050-0000000" [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: מייל
+          - textbox "mail@example.com" [ref=e22]: aderet20@gmail.com
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: מחיר מזרון (₪ ללילה)
+            - spinbutton [ref=e26]: "100"
+          - generic [ref=e27]:
+            - generic [ref=e28]: סוג חבילה
+            - generic [ref=e29]: בסיסי
+        - button "שמור פרטי מתחם" [ref=e30]
+    - generic [ref=e31]:
+      - heading "יחידות" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e109]:
+          - paragraph [ref=e110]: עריכת יחידה
+          - generic [ref=e111]:
+            - generic [ref=e112]: שם היחידה *
+            - textbox "שם היחידה" [ref=e113]: יחידה א
+          - generic [ref=e114]:
+            - generic [ref=e115]: תיאור
+            - textbox "תיאור קצר (אופציונלי)" [ref=e116]
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: מס׳ מיטות
+              - spinbutton [ref=e120]: "2"
+            - generic [ref=e121]:
+              - generic [ref=e122]: מקס׳ מזרונים
+              - spinbutton [ref=e123]: "2"
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: מחיר אמצ"ש
+              - generic [ref=e127]:
+                - generic: ₪
+                - spinbutton [ref=e128]: "500"
+            - generic [ref=e129]:
+              - generic [ref=e130]: מחיר סופ"ש
+              - generic [ref=e131]:
+                - generic: ₪
+                - spinbutton [ref=e132]: "700"
+            - generic [ref=e133]:
+              - generic [ref=e134]: מחיר שיא
+              - generic [ref=e135]:
+                - generic: ₪
+                - spinbutton [ref=e136]: "900"
+          - generic [ref=e137] [cursor=pointer]:
+            - checkbox "כל המתחם אפשרות שכוללת את כלל היחידות" [ref=e138]
+            - generic [ref=e139]:
+              - paragraph [ref=e140]: כל המתחם
+              - paragraph [ref=e141]: אפשרות שכוללת את כלל היחידות
+          - generic [ref=e142]:
+            - button "שמור" [ref=e143]
+            - button "ביטול" [ref=e144]
+        - button "+ הוסף יחידה" [ref=e56]:
+          - generic [ref=e57]: +
+          - text: הוסף יחידה
+    - generic [ref=e58]:
+      - link "← חזרה לדשבורד" [ref=e59] [cursor=pointer]:
+        - /url: /dashboard
+      - link "בקרה" [ref=e60] [cursor=pointer]:
+        - /url: /debug
+  - navigation [ref=e61]:
+    - generic [ref=e62]:
+      - link "ראשי" [ref=e63] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e65]
+        - generic [ref=e68]: ראשי
+      - link "הזמנות" [ref=e69] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e71]
+        - generic [ref=e75]: הזמנות
+      - link "זמינות" [ref=e76] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e78]
+        - generic [ref=e81]: זמינות
+      - link "הודעות" [ref=e82] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e84]
+        - generic [ref=e86]: הודעות
+      - link "בקרה" [ref=e87] [cursor=pointer]:
+        - /url: /control
+        - img [ref=e89]
+        - generic [ref=e92]: בקרה
+      - link "הגדרות" [ref=e93] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e95]
+        - generic [ref=e98]: הגדרות
+  - button "Open Next.js Dev Tools" [ref=e104] [cursor=pointer]:
+    - img [ref=e105]
+  - alert [ref=e108]

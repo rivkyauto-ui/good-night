@@ -1,0 +1,1930 @@
+[     283ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     410ms] [LOG] [Fast Refresh] done in 231ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1004ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1029ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  220162ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  222713ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  222799ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  222911ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  222927ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  222989ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  223048ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  223110ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  223182ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  223243ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  223345ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  224574ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  224575ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  224696ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  225382ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  225383ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  225388ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/control?_rsc=_Jq6LVKIZPbS44a5:0
+[  225443ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  225499ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  225542ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/control:0
+[  225723ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  225790ms] Error: ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/control/page.tsx:229:1)
+    at Object.getCompilationErrors (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\קלוד קוד\פרויקט ניהול אירוח חכם\node_modules\next\dist\server\base-server.js:1753:26)
+[  225794ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  225797ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  225798ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  225907ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  226117ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226180ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226245ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226323ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226386ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226448ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226531ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226609ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226695ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226775ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226854ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226932ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  226995ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227057ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227118ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227181ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227245ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227308ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227362ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227425ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227488ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227551ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227614ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227679ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227741ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227797ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227859ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227921ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  227984ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228047ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228113ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228180ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228248ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228312ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228375ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228441ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228513ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228591ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228670ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228749ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228829ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228907ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  228977ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229041ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229105ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229184ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229263ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229348ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229426ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229499ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229577ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229639ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  229716ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229796ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229874ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229935ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  229996ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230058ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230110ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230174ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230237ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230293ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230356ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230419ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230499ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230577ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230654ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230735ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230813ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230892ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  230972ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231049ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231127ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231199ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231278ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231350ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231427ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231506ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231582ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231663ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231746ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231825ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231904ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  231982ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232045ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232107ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232178ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232258ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232309ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  232466ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232544ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232628ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232711ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232773ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232853ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  232932ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233008ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233074ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233149ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233227ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233313ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233376ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233440ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233520ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233598ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233661ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233723ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233787ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233865ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  233943ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234006ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234083ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234162ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234240ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234303ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234368ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234430ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234495ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234557ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234622ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234698ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234761ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234825ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234889ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  234953ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235017ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235077ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  235159ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235222ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235284ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235348ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235411ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235475ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235531ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235597ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235662ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235725ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235790ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235853ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235932ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  235994ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236056ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236130ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236193ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236256ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236335ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236414ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236495ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236573ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236647ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236710ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236774ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236838ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236918ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  236998ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237079ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237163ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237241ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237316ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237378ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237438ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237495ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237557ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237620ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237682ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237745ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237811ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237879ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  237945ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238015ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238077ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238128ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238198ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238279ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238349ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238432ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238510ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238580ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238649ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238731ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238815ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238890ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  238961ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239023ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239101ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239178ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239242ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239318ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239381ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239446ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239507ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239582ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239660ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239730ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239810ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239878ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  239941ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  240036ms] [ERROR] ./app/control/page.tsx:229:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  227 |     </main>
+  228 |   );
+> 229 | }
+      | ^
+  230 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  240117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  240185ms] [LOG] [Fast Refresh] done in 77ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  240412ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  240779ms] [LOG] [Fast Refresh] done in 470ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  241692ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  241716ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

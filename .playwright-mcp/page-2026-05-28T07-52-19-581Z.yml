@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - img "Good Night" [ref=e5]
+    - generic [ref=e6]:
+      - heading "הזמנות ← עתיקא" [level=1] [ref=e7]
+      - link "+ חדשה" [ref=e8] [cursor=pointer]:
+        - /url: /bookings/new
+    - generic [ref=e9]:
+      - link "הכל" [ref=e10] [cursor=pointer]:
+        - /url: /bookings
+      - link "שוהים עכשיו" [ref=e11] [cursor=pointer]:
+        - /url: /bookings?filter=current
+      - link "כניסות היום" [ref=e12] [cursor=pointer]:
+        - /url: /bookings?filter=checkin
+      - link "יציאות היום" [ref=e13] [cursor=pointer]:
+        - /url: /bookings?filter=checkout
+      - link "ממתינות לאישור" [ref=e14] [cursor=pointer]:
+        - /url: /bookings?filter=pending
+      - link "ממתינות לגביה" [ref=e15] [cursor=pointer]:
+        - /url: /bookings?filter=payment
+      - link "להחזר" [ref=e16] [cursor=pointer]:
+        - /url: /bookings?filter=refund
+    - generic [ref=e17]:
+      - 'link "ORD-0003 ממתינה טרם שולם ישראל ישראלי כניסה 10.06.26 ← יציאה 12.06.26 2 לילות יחידה א ‏1,000 ‏₪ יתרה: ‏1,000 ‏₪" [ref=e18] [cursor=pointer]':
+        - /url: /bookings/81dfc5b4-ec35-4505-a441-abf594adba27
+        - generic [ref=e19]:
+          - generic [ref=e20]: ORD-0003
+          - generic [ref=e21]:
+            - generic [ref=e22]: ממתינה
+            - generic [ref=e23]: טרם שולם
+        - paragraph [ref=e24]: ישראל ישראלי
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: כניסה
+            - generic [ref=e28]: 10.06.26
+          - generic [ref=e29]: ←
+          - generic [ref=e30]:
+            - generic [ref=e31]: יציאה
+            - generic [ref=e32]: 12.06.26
+          - generic [ref=e33]: 2 לילות
+        - paragraph [ref=e34]: יחידה א
+        - generic [ref=e35]:
+          - generic [ref=e36]: ‏1,000 ‏₪
+          - generic [ref=e37]: "יתרה: ‏1,000 ‏₪"
+      - 'link "ORD-0005 ממתינה טרם שולם אורח בדיקה כניסה 05.06.26 ← יציאה 08.06.26 3 לילות יחידה א ‏1,500 ‏₪ יתרה: ‏1,500 ‏₪" [ref=e38] [cursor=pointer]':
+        - /url: /bookings/c8a4aba7-f19b-4c8e-ab49-52b93762da53
+        - generic [ref=e39]:
+          - generic [ref=e40]: ORD-0005
+          - generic [ref=e41]:
+            - generic [ref=e42]: ממתינה
+            - generic [ref=e43]: טרם שולם
+        - paragraph [ref=e44]: אורח בדיקה
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: כניסה
+            - generic [ref=e48]: 05.06.26
+          - generic [ref=e49]: ←
+          - generic [ref=e50]:
+            - generic [ref=e51]: יציאה
+            - generic [ref=e52]: 08.06.26
+          - generic [ref=e53]: 3 לילות
+        - paragraph [ref=e54]: יחידה א
+        - generic [ref=e55]:
+          - generic [ref=e56]: ‏1,500 ‏₪
+          - generic [ref=e57]: "יתרה: ‏1,500 ‏₪"
+      - 'link "ORD-0001 אושרה מקדמה דוד כהן כניסה 01.06.26 ← יציאה 03.06.26 2 לילות יחידה א ‏1,000 ‏₪ יתרה: ‏700 ‏₪" [ref=e58] [cursor=pointer]':
+        - /url: /bookings/6ea25f0a-48ac-471d-abbc-18b4913f261f
+        - generic [ref=e59]:
+          - generic [ref=e60]: ORD-0001
+          - generic [ref=e61]:
+            - generic [ref=e62]: אושרה
+            - generic [ref=e63]: מקדמה
+        - paragraph [ref=e64]: דוד כהן
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: כניסה
+            - generic [ref=e68]: 01.06.26
+          - generic [ref=e69]: ←
+          - generic [ref=e70]:
+            - generic [ref=e71]: יציאה
+            - generic [ref=e72]: 03.06.26
+          - generic [ref=e73]: 2 לילות
+        - paragraph [ref=e74]: יחידה א
+        - generic [ref=e75]:
+          - generic [ref=e76]: ‏1,000 ‏₪
+          - generic [ref=e77]: "יתרה: ‏700 ‏₪"
+      - 'link "ORD-0004 ממתינה טרם שולם אורח בדיקה כניסה 28.05.26 ← יציאה 30.05.26 2 לילות יחידה א ‏1,000 ‏₪ יתרה: ‏1,000 ‏₪" [ref=e78] [cursor=pointer]':
+        - /url: /bookings/10997a45-9c78-490d-897a-21f177441c45
+        - generic [ref=e79]:
+          - generic [ref=e80]: ORD-0004
+          - generic [ref=e81]:
+            - generic [ref=e82]: ממתינה
+            - generic [ref=e83]: טרם שולם
+        - paragraph [ref=e84]: אורח בדיקה
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: כניסה
+            - generic [ref=e88]: 28.05.26
+          - generic [ref=e89]: ←
+          - generic [ref=e90]:
+            - generic [ref=e91]: יציאה
+            - generic [ref=e92]: 30.05.26
+          - generic [ref=e93]: 2 לילות
+        - paragraph [ref=e94]: יחידה א
+        - generic [ref=e95]:
+          - generic [ref=e96]: ‏1,000 ‏₪
+          - generic [ref=e97]: "יתרה: ‏1,000 ‏₪"
+      - 'link "ORD-0002 ממתינה טרם שולם רבקה כניסה 27.05.26 ← יציאה 30.05.26 3 לילות יחידה א ‏1,500 ‏₪ יתרה: ‏1,500 ‏₪" [ref=e98] [cursor=pointer]':
+        - /url: /bookings/d38691a8-2d6c-41b1-820f-5f63458ff245
+        - generic [ref=e99]:
+          - generic [ref=e100]: ORD-0002
+          - generic [ref=e101]:
+            - generic [ref=e102]: ממתינה
+            - generic [ref=e103]: טרם שולם
+        - paragraph [ref=e104]: רבקה
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: כניסה
+            - generic [ref=e108]: 27.05.26
+          - generic [ref=e109]: ←
+          - generic [ref=e110]:
+            - generic [ref=e111]: יציאה
+            - generic [ref=e112]: 30.05.26
+          - generic [ref=e113]: 3 לילות
+        - paragraph [ref=e114]: יחידה א
+        - generic [ref=e115]:
+          - generic [ref=e116]: ‏1,500 ‏₪
+          - generic [ref=e117]: "יתרה: ‏1,500 ‏₪"
+  - navigation [ref=e118]:
+    - generic [ref=e119]:
+      - link "ראשי" [ref=e120] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e122]
+        - generic [ref=e125]: ראשי
+      - link "הזמנות" [ref=e126] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e128]
+        - generic [ref=e132]: הזמנות
+      - link "זמינות" [ref=e133] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e135]
+        - generic [ref=e138]: זמינות
+      - link "הודעות" [ref=e139] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e141]
+        - generic [ref=e143]: הודעות
+      - link "בקרה" [ref=e144] [cursor=pointer]:
+        - /url: /control
+        - img [ref=e146]
+        - generic [ref=e149]: בקרה
+      - link "הגדרות" [ref=e150] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e152]
+        - generic [ref=e155]: הגדרות
+  - button "Open Next.js Dev Tools" [ref=e161] [cursor=pointer]:
+    - img [ref=e162]

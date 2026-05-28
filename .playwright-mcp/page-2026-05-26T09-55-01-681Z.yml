@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - heading "הודעות" [level=1] [ref=e4]
+    - generic [ref=e6]:
+      - paragraph [ref=e8]: הפניות שלי
+      - generic [ref=e10]:
+        - button "שאלה לגבי תמחור 26.05.26 הסתיימה ▼" [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - paragraph [ref=e16]: שאלה לגבי תמחור
+              - paragraph [ref=e17]: 26.05.26
+            - generic [ref=e18]:
+              - generic [ref=e19]: הסתיימה
+              - generic [ref=e20]: ▼
+        - button "בעיה בכניסה למערכת 26.05.26 הסתיימה ▼" [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - paragraph [ref=e27]: בעיה בכניסה למערכת
+              - paragraph [ref=e28]: 26.05.26
+            - generic [ref=e29]:
+              - generic [ref=e30]: הסתיימה
+              - generic [ref=e31]: ▼
+  - navigation [ref=e32]:
+    - generic [ref=e33]:
+      - link "ראשי" [ref=e34] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e35]
+        - generic [ref=e38]: ראשי
+      - link "הזמנות" [ref=e39] [cursor=pointer]:
+        - /url: /bookings
+        - img [ref=e40]
+        - generic [ref=e44]: הזמנות
+      - link "זמינות" [ref=e45] [cursor=pointer]:
+        - /url: /availability
+        - img [ref=e46]
+        - generic [ref=e49]: זמינות
+      - link "הודעות" [ref=e50] [cursor=pointer]:
+        - /url: /messages
+        - img [ref=e51]
+        - generic [ref=e53]: הודעות
+      - link "הזמנה חדשה" [ref=e54] [cursor=pointer]:
+        - /url: /bookings/new
+        - img [ref=e55]
+        - generic [ref=e58]: הזמנה חדשה
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]
