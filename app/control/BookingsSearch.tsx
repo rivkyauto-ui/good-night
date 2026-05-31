@@ -1,5 +1,6 @@
 "use client";
 import { useState, useMemo, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export interface PriceHistory {
   id: string;
@@ -92,6 +93,7 @@ interface Props {
 }
 
 export default function BookingsSearch({ list }: Props) {
+  const router = useRouter();
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
@@ -171,7 +173,7 @@ export default function BookingsSearch({ list }: Props) {
                   const color = bookingRowColor(b);
                   const isOdd = i % 2 === 0;
                   return (
-                    <tr key={b.id} style={{ background: isOdd ? "rgba(255,255,255,0.02)" : "transparent", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
+                    <tr key={b.id} onClick={() => router.push(`/bookings/${b.id}`)} style={{ background: isOdd ? "rgba(255,255,255,0.02)" : "transparent", borderBottom: "1px solid rgba(255,255,255,0.04)", cursor: "pointer" }}>
                       <td style={{ padding: "0.5rem 0.5rem", fontFamily: "monospace", color: "var(--muted)", whiteSpace: "nowrap", fontSize: "0.7rem" }}>
                         {String(b.booking_number).padStart(4, "0")}
                       </td>

@@ -156,13 +156,13 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
           if (isCI || isCO) {
             bg = "var(--amber)"; color = "#1a1000";
           } else if (isConflictInRange) {
-            bg = "rgba(239,68,68,0.25)"; color = "#ef4444";
+            bg = "rgba(239,68,68,0.45)"; color = "#fca5a5";
           } else if (inRange) {
-            bg = "rgba(229,175,92,0.18)";
+            bg = "rgba(229,175,92,0.28)";
           } else if (isMaxCO) {
-            border = "1px solid rgba(229,175,92,0.6)"; color = "var(--amber)";
+            border = "1px solid rgba(229,175,92,0.7)"; color = "var(--amber)";
           } else if (isBlocked && !isPast) {
-            bg = "rgba(239,68,68,0.12)"; color = "#ef4444";
+            bg = "rgba(239,68,68,0.28)"; color = "#fca5a5";
           } else if (disabled || isPast) {
             color = "var(--muted)";
           }
@@ -203,7 +203,7 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
         <div style={{ display: "flex", gap: "0.75rem", fontSize: "0.65rem", color: "var(--muted)", flexWrap: "wrap" }}>
           {blockedDates.size > 0 && (
             <span style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
-              <span style={{ width: "10px", height: "10px", borderRadius: "2px", background: "rgba(239,68,68,0.3)", display: "inline-block", flexShrink: 0 }} />
+              <span style={{ width: "10px", height: "10px", borderRadius: "2px", background: "rgba(239,68,68,0.5)", display: "inline-block", flexShrink: 0 }} />
               תפוס
             </span>
           )}
