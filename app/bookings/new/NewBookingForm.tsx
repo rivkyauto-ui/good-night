@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useMemo, useTransition } from "react";
+import { useState, useMemo, useTransition, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
+import DateRangePicker from "./DateRangePicker";
 
 type Season = "weekday" | "weekend" | "peak";
 type DiscountType = "total" | "per_night";
@@ -65,6 +66,24 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
   const [bookingSource, setBookingSource] = useState("");
   const [notes, setNotes] = useState("");
 
+  const [occupiedByUnit, setOccupiedByUnit] = useState<Map<string, Set<string>>>(new Map());
+
+  useEffect(() => {
+    const supabase = createClient();
+    supabase
+      .from("occupancy")
+      .select("unit_id, date")
+      .in("unit_id", units.map((u) => u.id))
+      .then(({ data }) => {
+        const map = new Map<string, Set<string>>();
+        for (const row of (data ?? [])) {
+          if (!map.has(row.unit_id)) map.set(row.unit_id, new Set<string>());
+          map.get(row.unit_id)!.add(row.date);
+        }
+        setOccupiedByUnit(map);
+      });
+  }, [units]);
+
   // ── חישובים ──────────────────────────────────────────────────
 
   const nightsCount = useMemo(() => {
@@ -108,6 +127,24 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
     () => units.filter((u) => !u.is_whole_venue).reduce((sum, u) => sum + u.max_mattresses, 0),
     [units]
   );
+
+  const { hardBlocked, softBusy } = useMemo(() => {
+    const selectedIds = Object.keys(selectedUnits);
+    if (selectedIds.length === 0) {
+      const soft = new Set<string>();
+      for (const dates of occupiedByUnit.values()) {
+        for (const d of dates) soft.add(d);
+      }
+      return { hardBlocked: new Set<string>(), softBusy: soft };
+    }
+    const hasWhole = selectedIds.some((id) => units.find((u) => u.id === id)?.is_whole_venue);
+    const toCheck = hasWhole ? units.map((u) => u.id) : selectedIds;
+    const hard = new Set<string>();
+    for (const id of toCheck) {
+      for (const d of (occupiedByUnit.get(id) ?? new Set<string>())) hard.add(d);
+    }
+    return { hardBlocked: hard, softBusy: new Set<string>() };
+  }, [occupiedByUnit, selectedUnits, units]);
 
   // ── פעולות יחידות ────────────────────────────────────────────
 
@@ -322,18 +359,13 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" />
         </svg>
       }>
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="כניסה" required>
-            <input type="date" value={checkIn}
-              onChange={(e) => { setCheckIn(e.target.value); if (checkOut && e.target.value >= checkOut) setCheckOut(""); }}
-              className="w-full px-3 py-3 rounded-xl text-sm" style={INPUT_STYLE} />
-          </Field>
-          <Field label="יציאה" required>
-            <input type="date" value={checkOut} min={checkIn || undefined}
-              onChange={(e) => setCheckOut(e.target.value)}
-              className="w-full px-3 py-3 rounded-xl text-sm" style={INPUT_STYLE} />
-          </Field>
-        </div>
+        <DateRangePicker
+          checkIn={checkIn}
+          checkOut={checkOut}
+          blockedDates={hardBlocked}
+          busyDates={softBusy}
+          onChange={(ci, co) => { setCheckIn(ci); setCheckOut(co); }}
+        />
         {nightsCount > 0 && (
           <p className="text-xs" style={{ color: "var(--muted)" }}>
             {nightsCount === 1 ? "לילה אחד" : `${nightsCount} לילות`}
