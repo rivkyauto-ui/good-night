@@ -387,41 +387,6 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
         </div>
       </Section>
 
-      {/* תאריכים */}
-      <Section title="תאריכים" icon={
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" />
-        </svg>
-      }>
-        <DateRangePicker
-          checkIn={checkIn}
-          checkOut={checkOut}
-          blockedDates={hardBlocked}
-          busyDates={softBusy}
-          onChange={(ci, co) => { setCheckIn(ci); setCheckOut(co); }}
-        />
-        {nightsCount > 0 && (
-          <p className="text-xs" style={{ color: "var(--muted)" }}>
-            {nightsCount === 1 ? "לילה אחד" : `${nightsCount} לילות`}
-          </p>
-        )}
-        <Field label="עונה" required>
-          <div className="grid grid-cols-3 gap-2">
-            {SEASON_OPTIONS.map((opt) => (
-              <button key={opt.value} type="button" onClick={() => setSeason(opt.value)}
-                className="py-2.5 rounded-xl text-sm font-medium"
-                style={{
-                  background: season === opt.value ? "var(--amber)" : "var(--card-bg)",
-                  color: season === opt.value ? "#1a1000" : "var(--muted)",
-                  border: `1px solid ${season === opt.value ? "var(--amber)" : "var(--card-border)"}`,
-                }}>
-                {opt.label}
-              </button>
-            ))}
-          </div>
-        </Field>
-      </Section>
-
       {/* יחידות */}
       <Section title="יחידות" icon={
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -518,6 +483,41 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
             </div>
           )}
         </div>
+      </Section>
+
+      {/* תאריכים */}
+      <Section title="תאריכים" icon={
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+      }>
+        <DateRangePicker
+          checkIn={checkIn}
+          checkOut={checkOut}
+          blockedDates={hardBlocked}
+          busyDates={softBusy}
+          onChange={(ci, co) => { setCheckIn(ci); setCheckOut(co); }}
+        />
+        {nightsCount > 0 && (
+          <p className="text-xs" style={{ color: "var(--muted)" }}>
+            {nightsCount === 1 ? "לילה אחד" : `${nightsCount} לילות`}
+          </p>
+        )}
+        <Field label="עונה" required>
+          <div className="grid grid-cols-3 gap-2">
+            {SEASON_OPTIONS.map((opt) => (
+              <button key={opt.value} type="button" onClick={() => setSeason(opt.value)}
+                className="py-2.5 rounded-xl text-sm font-medium"
+                style={{
+                  background: season === opt.value ? "var(--amber)" : "var(--card-bg)",
+                  color: season === opt.value ? "#1a1000" : "var(--muted)",
+                  border: `1px solid ${season === opt.value ? "var(--amber)" : "var(--card-border)"}`,
+                }}>
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        </Field>
       </Section>
 
       {/* תשלום */}
