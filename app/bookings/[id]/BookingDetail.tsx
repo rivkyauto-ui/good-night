@@ -121,14 +121,25 @@ function fmtDate(dateStr: string) {
   return `${day}.${month}.${year.slice(2)}`;
 }
 
+const RETURN_LABELS: Record<string, string> = {
+  pending:  "ממתינות לאישור",
+  payment:  "ממתינות לגביה",
+  refund:   "ממתינות להחזר",
+  checkin:  "כניסות היום",
+  checkout: "יציאות היום",
+  current:  "שוהים עכשיו",
+};
+
 export default function BookingDetail({
   booking,
   mattressPrice,
   venueName,
+  returnTo,
 }: {
   booking: Booking;
   mattressPrice: number;
   venueName: string;
+  returnTo?: string;
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -289,8 +300,19 @@ export default function BookingDetail({
 
       {/* Top nav */}
       <div className="flex items-center justify-between">
-        <Link href="/bookings" className="text-sm" style={{ color: "var(--muted)" }}>
-          → הזמנות
+        <Link
+          href={returnTo ? `/bookings?filter=${returnTo}` : "/bookings"}
+          className="text-sm flex items-center gap-1.5"
+          style={returnTo ? {
+            color: "var(--amber)",
+            background: "rgba(229,175,92,0.1)",
+            border: "1px solid rgba(229,175,92,0.25)",
+            padding: "0.35rem 0.75rem",
+            borderRadius: "0.75rem",
+            fontWeight: 600,
+          } : { color: "var(--muted)" }}
+        >
+          → {returnTo ? (RETURN_LABELS[returnTo] ?? "הזמנות") : "הזמנות"}
         </Link>
         <div className="flex items-center gap-3">
           <span className="text-xs font-mono" style={{ color: "var(--muted)" }}>{orderNum}</span>

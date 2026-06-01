@@ -50,9 +50,11 @@ function formatAmount(amount: number) {
 export default function BookingsListClient({
   list,
   emptyMessage,
+  filter = "",
 }: {
   list: BookingRow[];
   emptyMessage: string;
+  filter?: string;
 }) {
   const [query, setQuery] = useState("");
 
@@ -109,14 +111,14 @@ export default function BookingsListClient({
         </div>
       ) : (
         <div className="flex flex-col gap-3">
-          {filtered.map(booking => <BookingCard key={booking.id} booking={booking} />)}
+          {filtered.map(booking => <BookingCard key={booking.id} booking={booking} filter={filter} />)}
         </div>
       )}
     </>
   );
 }
 
-function BookingCard({ booking }: { booking: BookingRow }) {
+function BookingCard({ booking, filter = "" }: { booking: BookingRow; filter?: string }) {
   const unitNames = booking.booking_units
     .flatMap(bu => bu.units ?? [])
     .map(u => u.name)
@@ -127,7 +129,7 @@ function BookingCard({ booking }: { booking: BookingRow }) {
   const nightsLabel = booking.nights_count === 1 ? "לילה" : `${booking.nights_count} לילות`;
 
   return (
-    <Link href={`/bookings/${booking.id}`}
+    <Link href={`/bookings/${booking.id}${filter ? `?returnTo=${filter}` : ""}`}
       className="block rounded-2xl px-4 py-4 active:opacity-75 transition-opacity"
       style={{
         background: "linear-gradient(160deg, #232b36 0%, #1c2330 100%)",

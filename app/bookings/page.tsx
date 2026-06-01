@@ -170,7 +170,7 @@ export default async function BookingsPage(props: {
       </div>
 
       {/* רשימה + חיפוש */}
-      <BookingsListClient list={list} emptyMessage={EMPTY_MESSAGES[filter]} />
+      <BookingsListClient list={list} emptyMessage={EMPTY_MESSAGES[filter]} filter={filter} />
 
     </main>
   );

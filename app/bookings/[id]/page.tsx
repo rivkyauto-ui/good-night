@@ -11,10 +11,13 @@ function computeTimeStatus(checkIn: string, checkOut: string): string {
 
 export default async function BookingDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ returnTo?: string }>;
 }) {
   const { id } = await params;
+  const { returnTo } = await searchParams;
   const supabase = await createClient();
 
   const { data: { user } } = await supabase.auth.getUser();
@@ -105,5 +108,5 @@ export default async function BookingDetailPage({
     }),
   };
 
-  return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} venueName={venue.name} />;
+  return <BookingDetail booking={booking} mattressPrice={Number(venue.mattress_price)} venueName={venue.name} returnTo={returnTo} />;
 }
