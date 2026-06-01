@@ -66,21 +66,28 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
   const [bookingSource, setBookingSource] = useState("");
   const [notes, setNotes] = useState("");
 
-  const [occupiedByUnit, setOccupiedByUnit] = useState<Map<string, Set<string>>>(new Map());
+  const [approvedByUnit, setApprovedByUnit] = useState<Map<string, Set<string>>>(new Map());
+  const [pendingByUnit, setPendingByUnit] = useState<Map<string, Set<string>>>(new Map());
 
   useEffect(() => {
     const supabase = createClient();
     supabase
       .from("occupancy")
-      .select("unit_id, date")
+      .select("unit_id, date, bookings!booking_id(booking_status)")
       .in("unit_id", units.map((u) => u.id))
       .then(({ data }) => {
-        const map = new Map<string, Set<string>>();
+        const approved = new Map<string, Set<string>>();
+        const pending = new Map<string, Set<string>>();
         for (const row of (data ?? [])) {
+          const bArr = row.bookings as { booking_status: string }[] | null;
+          const status = Array.isArray(bArr) ? bArr[0]?.booking_status : (bArr as unknown as { booking_status: string } | null)?.booking_status;
+          const map = status === "approved" ? approved : status === "pending" ? pending : null;
+          if (!map) continue;
           if (!map.has(row.unit_id)) map.set(row.unit_id, new Set<string>());
           map.get(row.unit_id)!.add(row.date);
         }
-        setOccupiedByUnit(map);
+        setApprovedByUnit(approved);
+        setPendingByUnit(pending);
       });
   }, [units]);
 
@@ -132,19 +139,21 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
     const selectedIds = Object.keys(selectedUnits);
     if (selectedIds.length === 0) {
       const soft = new Set<string>();
-      for (const dates of occupiedByUnit.values()) {
-        for (const d of dates) soft.add(d);
-      }
+      for (const dates of approvedByUnit.values()) for (const d of dates) soft.add(d);
+      for (const dates of pendingByUnit.values()) for (const d of dates) soft.add(d);
       return { hardBlocked: new Set<string>(), softBusy: soft };
     }
     const hasWhole = selectedIds.some((id) => units.find((u) => u.id === id)?.is_whole_venue);
     const toCheck = hasWhole ? units.map((u) => u.id) : selectedIds;
     const hard = new Set<string>();
+    const soft = new Set<string>();
     for (const id of toCheck) {
-      for (const d of (occupiedByUnit.get(id) ?? new Set<string>())) hard.add(d);
+      for (const d of (approvedByUnit.get(id) ?? new Set<string>())) hard.add(d);
+      for (const d of (pendingByUnit.get(id) ?? new Set<string>())) soft.add(d);
     }
-    return { hardBlocked: hard, softBusy: new Set<string>() };
-  }, [occupiedByUnit, selectedUnits, units]);
+    for (const d of hard) soft.delete(d);
+    return { hardBlocked: hard, softBusy: soft };
+  }, [approvedByUnit, pendingByUnit, selectedUnits, units]);
 
   // ── פעולות יחידות ────────────────────────────────────────────
 
