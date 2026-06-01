@@ -265,6 +265,30 @@ export default function BookingDetail({
     const supabase = createClient();
     const { error } = await supabase.from("bookings").update(updates).eq("id", booking.id);
     if (error) { setActionError(error.message); setActionLoading(false); return; }
+
+    // כשמאשרים הזמנה — מסמנים הזמנות pending חופפות כ-has_conflict
+    if (updates.booking_status === "approved") {
+      const unitIds = booking.booking_units
+        .map(bu => bu.units?.id)
+        .filter((id): id is string => !!id);
+      if (unitIds.length > 0) {
+        const { data: overlapping } = await supabase
+          .from("occupancy")
+          .select("booking_id")
+          .in("unit_id", unitIds)
+          .gte("date", booking.check_in)
+          .lt("date", booking.check_out)
+          .neq("booking_id", booking.id);
+        const otherIds = [...new Set((overlapping ?? []).map((r: { booking_id: string }) => r.booking_id))];
+        if (otherIds.length > 0) {
+          await supabase.from("bookings")
+            .update({ has_conflict: true })
+            .in("id", otherIds)
+            .eq("booking_status", "pending");
+        }
+      }
+    }
+
     setActionLoading(false);
     setShowDepositInput(false);
     setDepositAmount("");
@@ -325,6 +349,20 @@ export default function BookingDetail({
           )}
         </div>
       </div>
+
+      {/* ── Conflict warning ─────────────────────────────────── */}
+      {booking.has_conflict && booking.booking_status === "pending" && (
+        <div className="flex items-start gap-3 px-4 py-3 rounded-2xl"
+          style={{ background: "rgba(239,68,68,0.1)", border: "1px solid rgba(239,68,68,0.3)" }}>
+          <span style={{ fontSize: "1.2rem", lineHeight: 1.2 }}>⚠</span>
+          <div>
+            <p className="text-sm font-semibold mb-0.5" style={{ color: "#f87171" }}>חפיפת תאריכים</p>
+            <p className="text-xs" style={{ color: "#fca5a5" }}>
+              הזמנה זו חופפת בתאריכים להזמנה שכבר אושרה. יש לבדוק ולהסדיר לפני אישור.
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* ── Edit mode ─────────────────────────────────────────── */}
       {isEditing && (

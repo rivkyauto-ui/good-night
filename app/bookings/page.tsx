@@ -54,6 +54,7 @@ export default async function BookingsPage(props: {
     check_in, check_out, nights_count,
     booking_status, payment_status,
     total_amount, amount_paid, balance_due,
+    has_conflict,
     booking_units(units(name))
   `;
 

@@ -19,6 +19,7 @@ export interface BookingRow {
   total_amount: number;
   amount_paid: number;
   balance_due: number | null;
+  has_conflict: boolean | null;
   booking_units: Array<{ units: Array<{ name: string }> | null }>;
 }
 
@@ -146,6 +147,13 @@ function BookingCard({ booking, filter = "" }: { booking: BookingRow; filter?: s
           <PaymentBadge status={booking.payment_status} amountPaid={booking.amount_paid} />
         </div>
       </div>
+
+      {booking.has_conflict && (
+        <div className="flex items-center gap-1.5 mb-2 px-2.5 py-1.5 rounded-xl text-xs font-medium"
+          style={{ background: "rgba(239,68,68,0.12)", color: "#f87171", border: "1px solid rgba(239,68,68,0.25)" }}>
+          ⚠ חפיפת תאריכים — יש להסדיר
+        </div>
+      )}
 
       <p className="text-base font-semibold mb-2">{booking.guest_name}</p>
 
