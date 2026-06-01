@@ -227,18 +227,25 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
 
       const { data: conflicts } = await supabase
         .from("occupancy")
-        .select("unit_id")
+        .select("unit_id, bookings!booking_id(booking_status)")
         .in("unit_id", unitIdsToCheck)
         .in("date", datesToCheck);
 
-      if (conflicts && conflicts.length > 0) {
-        const conflictIds = [...new Set(conflicts.map((r: { unit_id: string }) => r.unit_id))];
+      // חסימה רק אם יש חפיפה עם הזמנה שכבר אושרה
+      const approvedConflicts = (conflicts ?? []).filter((r) => {
+        const b = r.bookings as { booking_status: string }[] | { booking_status: string } | null;
+        const status = Array.isArray(b) ? b[0]?.booking_status : (b as { booking_status: string } | null)?.booking_status;
+        return status === "approved";
+      });
+
+      if (approvedConflicts.length > 0) {
+        const conflictIds = [...new Set(approvedConflicts.map((r: { unit_id: string }) => r.unit_id))];
         const conflictNames = conflictIds
           .map((id) => units.find((u) => u.id === id)?.name)
           .filter(Boolean)
           .join(", ");
         const plural = conflictIds.length > 1;
-        setError(`חפיפה בתאריכים: ${conflictNames} כבר ${plural ? "תפוסות" : "תפוסה"} בחלק מהימים שנבחרו. בדוק את יומן הזמינות.`);
+        setError(`חפיפה בתאריכים: ${conflictNames} כבר ${plural ? "תפוסות" : "תפוסה"} בהזמנה מאושרת. בדוק את יומן הזמינות.`);
         return;
       }
 
