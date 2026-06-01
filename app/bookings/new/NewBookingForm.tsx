@@ -227,17 +227,17 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
 
       const { data: conflicts } = await supabase
         .from("occupancy")
-        .select("unit_id, bookings!booking_id(booking_status)")
+        .select("unit_id, booking_id, bookings!booking_id(booking_status)")
         .in("unit_id", unitIdsToCheck)
         .in("date", datesToCheck);
 
-      // חסימה רק אם יש חפיפה עם הזמנה שכבר אושרה
-      const approvedConflicts = (conflicts ?? []).filter((r) => {
+      function getStatus(r: { bookings: unknown }) {
         const b = r.bookings as { booking_status: string }[] | { booking_status: string } | null;
-        const status = Array.isArray(b) ? b[0]?.booking_status : (b as { booking_status: string } | null)?.booking_status;
-        return status === "approved";
-      });
+        return Array.isArray(b) ? b[0]?.booking_status : (b as { booking_status: string } | null)?.booking_status;
+      }
 
+      // חסימה רק אם יש חפיפה עם הזמנה שכבר אושרה
+      const approvedConflicts = (conflicts ?? []).filter((r) => getStatus(r) === "approved");
       if (approvedConflicts.length > 0) {
         const conflictIds = [...new Set(approvedConflicts.map((r: { unit_id: string }) => r.unit_id))];
         const conflictNames = conflictIds
@@ -248,6 +248,14 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
         setError(`חפיפה בתאריכים: ${conflictNames} כבר ${plural ? "תפוסות" : "תפוסה"} בהזמנה מאושרת. בדוק את יומן הזמינות.`);
         return;
       }
+
+      // הזמנות ממתינות חופפות — תסומנה שתיהן כ-has_conflict
+      const pendingConflictIds = [...new Set(
+        (conflicts ?? [])
+          .filter((r) => getStatus(r) === "pending")
+          .map((r) => r.booking_id as string)
+      )];
+      const hasConflict = pendingConflictIds.length > 0;
 
       const { data: booking, error: bookingErr } = await supabase
         .from("bookings")
@@ -269,6 +277,7 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
           booking_source: bookingSource || null,
           notes: notes.trim() || null,
           mattress_price_used: mattressPrice,
+          has_conflict: hasConflict,
         })
         .select("id")
         .single();
@@ -309,8 +318,17 @@ export default function NewBookingForm({ venueId, venueName, mattressPrice, unit
         dates.map((date) => ({ unit_id: bu.unit_id, booking_id: booking.id, date, status: "booked" as const }))
       );
 
+      // occupancy עשוי להיכשל עם duplicate אם יש הזמנה ממתינה חופפת — לא חוסמים
       const { error: occErr } = await supabase.from("occupancy").insert(occupancy);
-      if (occErr) { setError("שגיאה בשמירת התפוסה, נסה שוב"); return; }
+      if (occErr && bookingStatus === "approved") {
+        setError("שגיאה בשמירת התפוסה, נסה שוב");
+        return;
+      }
+
+      // סימון ההזמנות הממתינות החופפות כ-has_conflict
+      if (pendingConflictIds.length > 0) {
+        await supabase.from("bookings").update({ has_conflict: true }).in("id", pendingConflictIds);
+      }
 
       router.push(`/bookings/${booking.id}?created=1`);
     });
