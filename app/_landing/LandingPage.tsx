@@ -79,15 +79,6 @@ export default function LandingPage() {
         </div>
 
         {/* Description */}
-        <div style={{
-          fontFamily: "'Cormorant Garamond', serif",
-          fontSize: "1.5rem", fontWeight: 600,
-          color: AMBER, letterSpacing: "0.04em",
-          marginBottom: "0.5rem", textAlign: "center",
-        }}>
-          good night
-        </div>
-
         <p style={{ fontFamily: "'Heebo', sans-serif", fontWeight: 400, color: MUTED, fontSize: FS_H2, lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
           מערכת חכמה לבעלי מתחמי אירוח שמאפשרת לנהל את העסק בראש שקט.<br />
           פחות זמן על ניהול שוטף.{" "}
@@ -96,30 +87,40 @@ export default function LandingPage() {
 
         {/* Feature icons row */}
         <div style={{
-          display: "flex", alignItems: "center", justifyContent: "center",
-          gap: "0", marginBottom: "2.5rem", flexWrap: "nowrap",
-          width: "100%", maxWidth: 420,
+          display: "grid", gridTemplateColumns: "1fr 1fr",
+          gap: "1rem", marginBottom: "2.5rem",
+          width: "100%", maxWidth: 400,
         }}>
           {[
-            { icon: "/icons/chart.svg", label: "דשבורד ברור ונוח" },
-            { icon: "/icons/calendar.svg", label: "תפוסה בזמן אמת" },
-            { icon: "/icons/card.svg", label: "מעקב תשלומים" },
-            { icon: "/icons/bell.svg", label: "תזכורות אוטומטיות" },
-          ].map((f, i, arr) => (
-            <div key={i} style={{ display: "flex", alignItems: "center", flex: 1 }}>
-              <div style={{
-                display: "flex", flexDirection: "column", alignItems: "center",
-                gap: "0.35rem", flex: 1, padding: "0 0.25rem",
-              }}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.icon} alt="" width={22} height={22} />
-                <span style={{ fontSize: FS_BODY, color: MUTED, textAlign: "center", lineHeight: 1.3 }}>{f.label}</span>
-              </div>
-              {i < arr.length - 1 && (
-                <div style={{ width: 1, height: 52, background: "rgba(255,255,255,0.18)", flexShrink: 0 }} />
-              )}
+            { icon: "/icons/chart.svg",    title: "ניהול בראש שקט",     desc: "כל הנתונים החשובים במקום אחד." },
+            { icon: "/icons/calendar.svg", title: "זמינות מלאה",        desc: "התפוסה מתעדכנת בזמן אמת." },
+            { icon: "/icons/card.svg",     title: "שליטה בתשלומים",     desc: "מעקב ברור אחר גביה וטיפול בהחזרים." },
+            { icon: "/icons/bell.svg",     title: "בלי פספוסים",        desc: "תזכורות אוטומטיות לפעולות החשובות." },
+          ].map((f, i) => (
+            <div key={i} style={{
+              display: "flex", flexDirection: "column", alignItems: "center",
+              gap: "0.5rem", padding: "1rem 0.75rem",
+              background: "rgba(255,255,255,0.02)",
+              border: `1px solid ${BORDER}`, borderRadius: "1rem",
+              textAlign: "center",
+            }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={f.icon} alt="" width={26} height={26} />
+              <span style={{ fontSize: FS_BODY, fontWeight: 700, color: TEXT }}>{f.title}</span>
+              <span style={{ fontSize: FS_BODY, color: MUTED, lineHeight: 1.5 }}>{f.desc}</span>
             </div>
           ))}
+        </div>
+
+        {/* Trust */}
+        <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: FS_BODY, color: MUTED, marginBottom: "1.25rem" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/icons/shield_check_gold.svg" alt="" width={16} height={16} />
+          הקמה מהירה
+          <span style={{ color: AMBER }}>•</span>
+          ליווי אישי
+          <span style={{ color: AMBER }}>•</span>
+          תמיכה אמיתית
         </div>
 
         {/* CTA */}
@@ -130,22 +131,10 @@ export default function LandingPage() {
           padding: "1rem 2.5rem", borderRadius: "4rem",
           fontWeight: 700, fontSize: "1.05rem", textDecoration: "none",
           boxShadow: "0 4px 32px rgba(212,168,67,0.3)",
-          marginBottom: "1.25rem",
         }}>
           מעניין אותי
           <span style={{ fontSize: "1.9rem", lineHeight: 1, display: "flex", alignItems: "center", position: "relative", top: "-2px" }}>›</span>
         </a>
-
-        {/* Trust */}
-        <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: FS_BODY, color: MUTED }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/icons/shield_check_gold.svg" alt="" width={16} height={16} />
-          הקמה מהירה
-          <span style={{ color: AMBER }}>•</span>
-          ליווי אישי
-          <span style={{ color: AMBER }}>•</span>
-          תמיכה אמיתית
-        </div>
       </section>
 
       {/* ── Pain ───────────────────────────────────────────────── */}
@@ -218,6 +207,52 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Dashboard Preview Intro ────────────────────────────── */}
+      <section style={{
+        padding: "4.5rem 1.25rem 4.75rem",
+        borderTop: `1px solid ${BORDER}`,
+        background: "linear-gradient(180deg, rgba(244,212,132,0.025) 0%, rgba(12,14,28,0) 58%)",
+      }}>
+        <div style={{ maxWidth: 560, margin: "0 auto", textAlign: "center" }}>
+          <div style={{ margin: "0 auto 2rem", width: "min(340px, 86%)" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/icons/divider-glow.svg" alt="" style={{ width: "100%", height: "auto", opacity: 0.82 }} />
+          </div>
+
+          <p style={{
+            color: "#D4A843",
+            fontSize: "0.78rem",
+            fontWeight: 800,
+            letterSpacing: "0.08em",
+            margin: "0 0 0.65rem",
+          }}>
+            כך זה נראה בפועל
+          </p>
+
+          <h2 style={{
+            color: "#f8fafc",
+            fontSize: "clamp(1.55rem, 7vw, 2.35rem)",
+            fontWeight: 800,
+            lineHeight: 1.28,
+            maxWidth: 540,
+            margin: "0 auto 1rem",
+          }}>
+            כל מה שצריך כדי לנהל אירוח{" "}
+            <span style={{ color: "#F4D484" }}>בראש שקט</span>
+          </h2>
+
+          <p style={{
+            color: "#8f9ab3",
+            fontSize: "0.96rem",
+            lineHeight: 1.85,
+            maxWidth: 430,
+            margin: "0 auto",
+          }}>
+            הזמנות, תפוסה, תשלומים ומשימות — במסך אחד ברור ונוח לשימוש.
+          </p>
         </div>
       </section>
 
