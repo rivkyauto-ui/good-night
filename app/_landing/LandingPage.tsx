@@ -1,47 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 
 const BG = "#0c0e1c";
-const AMBER = "#d4a843";
-const AMBER_LIGHT = "#e5c06a";
+const AMBER = "#e5af5c";
+const AMBER_LIGHT = "#ecca85";
 const CARD = "#12152a";
 const BORDER = "rgba(255,255,255,0.07)";
 const MUTED = "#7a8299";
 const TEXT = "#f0f0f5";
 
-function IconDashboard() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={AMBER} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" />
-      <rect x="3" y="14" width="7" height="7" rx="1" /><rect x="14" y="14" width="7" height="7" rx="1" />
-    </svg>
-  );
-}
-function IconCalendar() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={AMBER} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="4" width="18" height="18" rx="2" />
-      <line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" />
-    </svg>
-  );
-}
-function IconCard() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={AMBER} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="2" y="5" width="20" height="14" rx="2" /><line x1="2" y1="10" x2="22" y2="10" />
-    </svg>
-  );
-}
-function IconBell() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={AMBER} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-      <path d="M13.73 21a2 2 0 0 1-3.46 0" />
-    </svg>
-  );
-}
+// טיפוגרפיה קבועה
+const FS_H1 = "1.6rem";     // כותרת ראשית
+const FS_H2 = "1.05rem";    // כותרת משנית / תיאור
+const FS_BODY = "0.85rem";  // גוף
+
 
 export default function LandingPage() {
   const [name, setName] = useState("");
@@ -50,7 +23,7 @@ export default function LandingPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  async function handleSubmit(e: SubmitEvent) {
+  async function handleSubmit(e: { preventDefault(): void }) {
     e.preventDefault();
     if (!name.trim() || !phone.trim()) { setError("יש למלא שם וטלפון"); return; }
     setLoading(true); setError("");
@@ -66,34 +39,14 @@ export default function LandingPage() {
 
   return (
     <div dir="rtl" style={{ background: BG, color: TEXT, minHeight: "100vh", fontFamily: "inherit" }}>
-      <style>{`@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');`}</style>
+      <style>{`@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap');`}</style>
 
-      {/* ── Navbar ─────────────────────────────────────────────── */}
-      <nav style={{
-        position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
-        display: "flex", alignItems: "center", justifyContent: "space-between",
-        padding: "0.75rem 1.5rem",
-        background: "rgba(12,14,28,0.7)", backdropFilter: "blur(12px)",
-        borderBottom: `1px solid ${BORDER}`,
-      }}>
-        <Link href="/login" style={{ fontSize: "0.82rem", color: MUTED, textDecoration: "none" }}>
-          כניסה למערכת
-        </Link>
-        <a href="#contact" style={{
-          fontSize: "0.82rem", fontWeight: 700,
-          background: "rgba(212,168,67,0.12)", color: AMBER,
-          padding: "0.4rem 1rem", borderRadius: "2rem",
-          textDecoration: "none", border: `1px solid rgba(212,168,67,0.25)`,
-        }}>
-          דברי איתנו
-        </a>
-      </nav>
 
       {/* ── Hero ───────────────────────────────────────────────── */}
       <section style={{
         minHeight: "100vh",
         display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
-        padding: "5rem 1.25rem 3rem",
+        padding: "2rem 1.25rem 3rem",
         textAlign: "center", position: "relative", overflow: "hidden",
       }}>
         {/* Glow background */}
@@ -104,46 +57,29 @@ export default function LandingPage() {
         }} />
 
         {/* Logo */}
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: "2.5rem" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo-icon-small.png" alt="Good Night" style={{ width: 160, height: "auto" }} />
-        </div>
-
-        {/* Brand name */}
-        <div style={{
-          fontFamily: "'Cormorant Garamond', serif",
-          fontSize: "2.8rem", fontWeight: 600,
-          color: AMBER, lineHeight: 1, marginBottom: "0.4rem", letterSpacing: "0.03em",
-        }}>
-          good night
-        </div>
-
-        {/* Hebrew tagline under brand */}
-        <div style={{ color: TEXT, fontSize: "0.85rem", marginBottom: "2rem", opacity: 0.75, letterSpacing: "0.07em" }}>
-          ניהול אירוח בראש שקט
+          <img src="/logo-icon-small.png" alt="Good Night" style={{ width: 280, height: "auto" }} />
         </div>
 
         {/* Main headline */}
         <h1 style={{
-          fontSize: "clamp(1.35rem, 5vw, 1.9rem)", fontWeight: 800,
-          lineHeight: 1.4, margin: "0 0 0.85rem", maxWidth: 460,
+          fontFamily: "'Heebo', sans-serif",
+          fontSize: FS_H1, fontWeight: 800,
+          lineHeight: 1.3, margin: "0 0 0", maxWidth: 460,
         }}>
-          כל ההזמנות. כל התשלומים.{" "}
-          <span style={{ display: "inline" }}>הכל במקום אחד.</span>
+          כל ההזמנות. כל התשלומים.<br />
+          <span style={{ color: AMBER }}>במקום אחד.</span>
         </h1>
 
         {/* Ornamental divider */}
-        <div style={{
-          display: "flex", alignItems: "center", gap: "0.75rem",
-          margin: "0 auto 1.5rem", width: "min(260px, 75%)",
-        }}>
-          <div style={{ flex: 1, height: 1, background: `linear-gradient(to right, transparent, rgba(212,168,67,0.45))` }} />
-          <span style={{ color: AMBER, fontSize: "0.7rem" }}>✦</span>
-          <div style={{ flex: 1, height: 1, background: `linear-gradient(to left, transparent, rgba(212,168,67,0.45))` }} />
+        <div style={{ margin: "2rem auto 2.75rem", width: "min(320px, 88%)" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/icons/divider-glow.svg" alt="" style={{ width: "100%", height: "auto", opacity: 0.75 }} />
         </div>
 
         {/* Description */}
-        <p style={{ color: MUTED, fontSize: "0.92rem", lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
+        <p style={{ fontFamily: "'Heebo', sans-serif", fontWeight: 400, color: MUTED, fontSize: FS_H2, lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
           מערכת חכמה לניהול מתחמי אירוח וצימרים.{" "}
           פשוטה להפעלה, מדויקת בניהול,{" "}
           <span style={{ color: AMBER, fontWeight: 600 }}>שקטה בראש.</span>
@@ -151,31 +87,28 @@ export default function LandingPage() {
 
         {/* Feature icons row */}
         <div style={{
-          display: "flex", gap: "0.5rem", justifyContent: "center",
-          marginBottom: "2.5rem", flexWrap: "wrap",
+          display: "flex", alignItems: "center", justifyContent: "center",
+          gap: "0", marginBottom: "2.5rem", flexWrap: "nowrap",
+          width: "100%", maxWidth: 420,
         }}>
           {[
-            { icon: <IconDashboard />, label: "דשבורד ברור ונוח" },
-            { icon: <IconCalendar />, label: "תפוסה בזמן אמת" },
-            { icon: <IconCard />, label: "מעקב תשלומים" },
-            { icon: <IconBell />, label: "תזכורות אוטומטיות" },
-          ].map((f, i) => (
-            <div key={i} style={{
-              display: "flex", alignItems: "center", gap: "0.5rem",
-              background: "rgba(255,255,255,0.03)",
-              border: `1px solid ${BORDER}`,
-              borderRadius: "2rem",
-              padding: "0.45rem 0.9rem 0.45rem 0.55rem",
-            }}>
+            { icon: "/icons/chart.svg", label: "דשבורד ברור ונוח" },
+            { icon: "/icons/calendar.svg", label: "תפוסה בזמן אמת" },
+            { icon: "/icons/card.svg", label: "מעקב תשלומים" },
+            { icon: "/icons/bell.svg", label: "תזכורות אוטומטיות" },
+          ].map((f, i, arr) => (
+            <div key={i} style={{ display: "flex", alignItems: "center", flex: 1 }}>
               <div style={{
-                width: 30, height: 30, borderRadius: "50%",
-                background: "rgba(212,168,67,0.09)",
-                border: `1px solid rgba(212,168,67,0.18)`,
-                display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+                display: "flex", flexDirection: "column", alignItems: "center",
+                gap: "0.35rem", flex: 1, padding: "0 0.25rem",
               }}>
-                {f.icon}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={f.icon} alt="" width={22} height={22} />
+                <span style={{ fontSize: FS_BODY, color: MUTED, textAlign: "center", lineHeight: 1.3 }}>{f.label}</span>
               </div>
-              <span style={{ fontSize: "0.78rem", color: TEXT, whiteSpace: "nowrap" }}>{f.label}</span>
+              {i < arr.length - 1 && (
+                <div style={{ width: 1, height: 52, background: "rgba(255,255,255,0.18)", flexShrink: 0 }} />
+              )}
             </div>
           ))}
         </div>
@@ -190,16 +123,19 @@ export default function LandingPage() {
           boxShadow: "0 4px 32px rgba(212,168,67,0.3)",
           marginBottom: "1.25rem",
         }}>
-          הזמינו הדגמה אישית
-          <span>←</span>
+          מעניין אותי
+          <span style={{ fontSize: "1.9rem", lineHeight: 1, display: "flex", alignItems: "center", position: "relative", top: "-2px" }}>›</span>
         </a>
 
         {/* Trust */}
-        <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.78rem", color: MUTED }}>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={MUTED} strokeWidth="2">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-          </svg>
-          הקמה מהירה • ליווי אישי • תמיכה אמיתית
+        <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: FS_BODY, color: MUTED }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/icons/shield_check_gold.svg" alt="" width={16} height={16} />
+          הקמה מהירה
+          <span style={{ color: AMBER }}>•</span>
+          ליווי אישי
+          <span style={{ color: AMBER }}>•</span>
+          תמיכה אמיתית
         </div>
       </section>
 

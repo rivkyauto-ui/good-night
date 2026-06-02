@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="shield-title">
+  <title id="shield-title">Gold shield check icon</title>
+  <defs>
+    <linearGradient id="shield-gold" x1="6" y1="4" x2="18" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4D484"/>
+      <stop offset="0.5" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#A87018"/>
+    </linearGradient>
+    <filter id="shield-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.2" flood-color="#D4A843" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <path
+    d="M12 3.7L18.1 6.1V11.1C18.1 15.1 15.65 18.55 12 20.25C8.35 18.55 5.9 15.1 5.9 11.1V6.1L12 3.7Z"
+    fill="none"
+    stroke="url(#shield-gold)"
+    stroke-width="1.55"
+    stroke-linejoin="round"
+    filter="url(#shield-glow)"
+  />
+
+  <path
+    d="M9.15 11.85L11.05 13.7L15.1 9.65"
+    fill="none"
+    stroke="url(#shield-gold)"
+    stroke-width="1.55"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
