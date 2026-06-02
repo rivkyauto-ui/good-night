@@ -39,7 +39,7 @@ export default function LandingPage() {
 
   return (
     <div dir="rtl" style={{ background: BG, color: TEXT, minHeight: "100vh", fontFamily: "inherit" }}>
-      <style>{`@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap');`}</style>
+      <style>{`@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&family=Cormorant+Garamond:wght@600&display=swap');`}</style>
 
 
       {/* ── Hero ───────────────────────────────────────────────── */}
@@ -79,10 +79,19 @@ export default function LandingPage() {
         </div>
 
         {/* Description */}
+        <div style={{
+          fontFamily: "'Cormorant Garamond', serif",
+          fontSize: "1.5rem", fontWeight: 600,
+          color: AMBER, letterSpacing: "0.04em",
+          marginBottom: "0.5rem", textAlign: "center",
+        }}>
+          good night
+        </div>
+
         <p style={{ fontFamily: "'Heebo', sans-serif", fontWeight: 400, color: MUTED, fontSize: FS_H2, lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
-          מערכת חכמה לניהול מתחמי אירוח וצימרים.{" "}
-          פשוטה להפעלה, מדויקת בניהול,{" "}
-          <span style={{ color: AMBER, fontWeight: 600 }}>שקטה בראש.</span>
+          מערכת חכמה לבעלי מתחמי אירוח שמאפשרת לנהל את העסק בראש שקט.<br />
+          פחות זמן על ניהול שוטף.{" "}
+          <span style={{ color: AMBER, fontWeight: 600 }}>יותר זמן לארח.</span>
         </p>
 
         {/* Feature icons row */}
