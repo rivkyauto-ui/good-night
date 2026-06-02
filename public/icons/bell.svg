@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="bell-title">
+  <title id="bell-title">Bell notification icon</title>
+  <defs>
+    <linearGradient id="bell-gold" x1="5" y1="3" x2="19" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D484"/>
+      <stop offset=".48" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#A87018"/>
+    </linearGradient>
+    <filter id="bell-glow" x="-45%" y="-45%" width="190%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.6" flood-color="#D4A843" flood-opacity=".52"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8B5A12" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#bell-gold)" stroke-linecap="round" stroke-linejoin="round" filter="url(#bell-glow)">
+    <path stroke-width="1.8" d="M18 9.2c0-3.35-2.56-6.05-6-6.05s-6 2.7-6 6.05c0 5.96-2.55 7.3-2.55 7.3h17.1S18 15.16 18 9.2Z"/>
+    <path stroke-width="1.8" d="M14.35 19.2a2.5 2.5 0 0 1-4.7 0"/>
+    <path stroke-width="1.25" d="M12 2.55v1.1"/>
+  </g>
+  <path fill="#F4D484" opacity=".72" d="M8.05 8.1c.34-1.78 1.74-3.06 3.68-3.22"/>
+</svg>

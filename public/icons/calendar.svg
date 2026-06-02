@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="calendar-title">
+  <title id="calendar-title">Calendar icon</title>
+  <defs>
+    <linearGradient id="calendar-gold" x1="4" y1="2" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D686"/>
+      <stop offset=".5" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#9A6516"/>
+    </linearGradient>
+    <filter id="calendar-glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#D4A843" flood-opacity=".5"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2.8" flood-color="#8B5A12" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#calendar-gold)" stroke-linecap="round" stroke-linejoin="round" filter="url(#calendar-glow)">
+    <rect x="3.75" y="4.85" width="16.5" height="16" rx="2.2" stroke-width="1.75"/>
+    <path stroke-width="1.75" d="M8 3.15v3.4M16 3.15v3.4M4.05 9.8h15.9"/>
+    <path stroke-width="1.2" d="M8 13.35h.1M12 13.35h.1M16 13.35h.1M8 17h.1M12 17h.1"/>
+  </g>
+  <path fill="#F4D484" opacity=".16" d="M5.25 6.35h13.5v2.15H5.25z"/>
+</svg>

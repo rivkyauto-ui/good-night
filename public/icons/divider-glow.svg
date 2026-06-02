@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 24" role="img" aria-labelledby="divider-title" preserveAspectRatio="none">
+  <title id="divider-title">Glowing gold divider with center star</title>
+  <defs>
+    <linearGradient id="divider-line" x1="0" y1="12" x2="260" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4A843" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#D4A843" stop-opacity=".58"/>
+      <stop offset=".5" stop-color="#F4D484" stop-opacity=".92"/>
+      <stop offset=".58" stop-color="#D4A843" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#D4A843" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="divider-star-fill" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#FFF2B8"/>
+      <stop offset=".48" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#8D5C13"/>
+    </radialGradient>
+    <filter id="divider-glow" x="-10%" y="-120%" width="120%" height="340%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="blur"/>
+      <feColorMatrix in="blur" values="1 0 0 0 0.83 0 1 0 0 0.66 0 0 1 0 0.26 0 0 0 .72 0" result="goldBlur"/>
+      <feMerge>
+        <feMergeNode in="goldBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#divider-glow)">
+    <path d="M0 12h112M148 12h112" fill="none" stroke="url(#divider-line)" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="M130 3.75l2.65 5.6 5.6 2.65-5.6 2.65-2.65 5.6-2.65-5.6-5.6-2.65 5.6-2.65L130 3.75Z" fill="url(#divider-star-fill)"/>
+    <circle cx="130" cy="12" r="2.35" fill="#FFF2B8" opacity=".78"/>
+  </g>
+</svg>
