@@ -74,6 +74,12 @@ export default function UnitsManager({ venueId, unitsLimit, initialUnits }: Prop
     setError(null);
   }
 
+  function startAddWholeVenue() {
+    setEditingId("new");
+    setForm({ ...EMPTY_FORM, name: "כל המתחם", is_whole_venue: true });
+    setError(null);
+  }
+
   function cancel() {
     setEditingId(null);
     setError(null);
@@ -85,6 +91,10 @@ export default function UnitsManager({ venueId, unitsLimit, initialUnits }: Prop
 
   async function saveUnit() {
     if (!form.name.trim()) { setError("שם היחידה הוא שדה חובה"); return; }
+    if (editingId === "new" && !form.is_whole_venue && unitsLimit > 0 && units.filter(u => !u.is_whole_venue).length >= unitsLimit) {
+      setError("הגעת למגבלת היחידות — לשדרוג פנה לתמיכה");
+      return;
+    }
     setLoading(true);
     setError(null);
     const supabase = createClient();
@@ -192,11 +202,20 @@ export default function UnitsManager({ venueId, unitsLimit, initialUnits }: Prop
             isNew
             hasWholeVenue={hasWholeVenue}
           />
-        ) : unitsLimit > 0 && units.length >= unitsLimit ? (
-          <div className="w-full py-3 px-4 rounded-xl text-sm text-center"
-            style={{ background: "rgba(229,175,92,0.06)", border: "1px dashed rgba(229,175,92,0.3)", color: "var(--muted)" }}>
-            הגעת למגבלת {unitsLimit} יחידות —{" "}
-            <span style={{ color: "var(--amber)" }}>לשדרוג פנה לתמיכה</span>
+        ) : unitsLimit > 0 && units.filter(u => !u.is_whole_venue).length >= unitsLimit ? (
+          <div className="flex flex-col gap-2">
+            <div className="w-full py-3 px-4 rounded-xl text-sm text-center"
+              style={{ background: "rgba(229,175,92,0.06)", border: "1px dashed rgba(229,175,92,0.3)", color: "var(--muted)" }}>
+              הגעת למגבלת {unitsLimit} יחידות —{" "}
+              <span style={{ color: "var(--amber)" }}>לשדרוג פנה לתמיכה</span>
+            </div>
+            {!hasWholeVenue && (
+              <button onClick={startAddWholeVenue}
+                className="w-full py-3 rounded-xl text-sm font-medium flex items-center justify-center gap-2"
+                style={{ background: "transparent", border: "1px dashed rgba(229,175,92,0.4)", color: "var(--amber)" }}>
+                <span className="text-base">+</span> הוסף יחידת "כל המתחם"
+              </button>
+            )}
           </div>
         ) : (
           <button onClick={startAdd}
@@ -304,7 +323,9 @@ function UnitForm({ form, onChange, onSave, onCancel, loading, error, isNew, has
 
       <FormField label="שם היחידה" required>
         <input type="text" value={form.name} onChange={(e) => onChange("name", e.target.value)}
-          placeholder="שם היחידה" className="w-full px-3 py-2.5 rounded-xl text-sm" style={INPUT_STYLE} />
+          placeholder="שם היחידה" className="w-full px-3 py-2.5 rounded-xl text-sm"
+          readOnly={form.is_whole_venue}
+          style={{ ...INPUT_STYLE, opacity: form.is_whole_venue ? 0.6 : 1 }} />
       </FormField>
 
       <FormField label="תיאור">
