@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { getParsha } from "@/lib/parsha";
 
 const DAYS_HE = ["א", "ב", "ג", "ד", "ה", "ו", "ש"];
 const MONTHS_HE = [
@@ -11,9 +12,7 @@ const MONTHS_HE = [
 interface Props {
   checkIn: string;
   checkOut: string;
-  /** תאריכים חסומים לחלוטין (לפי יחידות שנבחרו) */
   blockedDates: Set<string>;
-  /** תאריכים עם תפוסה חלקית (כשאין יחידות נבחרות — אינדיקציה בלבד) */
   busyDates: Set<string>;
   onChange: (checkIn: string, checkOut: string) => void;
 }
@@ -29,7 +28,6 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
   const isSelectingOut = !!checkIn && !checkOut;
   const atMinMonth = year === nowYear && month === nowMonth;
 
-  // התאריך החסום הראשון אחרי check-in — הוא המקסימום לצ'ק-אאוט
   const maxCheckOut = useMemo(() => {
     if (!checkIn || !blockedDates.size) return null;
     const sorted = [...blockedDates].filter(d => d > checkIn).sort();
@@ -46,6 +44,12 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
     while (arr.length % 7 !== 0) arr.push(null);
     return arr;
   }, [year, month]);
+
+  const rows = useMemo(() => {
+    const result: (string | null)[][] = [];
+    for (let i = 0; i < cells.length; i += 7) result.push(cells.slice(i, i + 7));
+    return result;
+  }, [cells]);
 
   function prev() {
     if (atMinMonth) return;
@@ -71,6 +75,69 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
 
   function fmt(d: string) {
     return `${Number(d.slice(8))} ב${MONTHS_HE[Number(d.slice(5, 7)) - 1]}`;
+  }
+
+  function renderDay(date: string | null, i: number) {
+    if (!date) return <div key={`e${i}`} />;
+
+    const isPast = date < today;
+    const isBlocked = blockedDates.has(date);
+    const isBusy = !isBlocked && busyDates.has(date);
+    const isCI = date === checkIn;
+    const isCO = date === checkOut;
+    const inRange = !!(checkIn && checkOut && date > checkIn && date < checkOut);
+    const isConflictInRange = inRange && isBlocked;
+    const isMaxCO = !!(date === maxCheckOut && isSelectingOut);
+    const isToday = date === today;
+
+    let disabled: boolean;
+    if (isSelectingOut) {
+      disabled = date <= checkIn || !!(maxCheckOut && date > maxCheckOut);
+    } else {
+      disabled = isPast || (isBlocked && !isConflictInRange);
+    }
+
+    let bg = "transparent";
+    let color = "var(--foreground)";
+    let border = "none";
+
+    if (isCI || isCO) {
+      bg = "var(--amber)"; color = "#1a1000";
+    } else if (isConflictInRange) {
+      bg = "rgba(239,68,68,0.45)"; color = "#fca5a5";
+    } else if (inRange) {
+      bg = "rgba(229,175,92,0.28)";
+    } else if (isMaxCO) {
+      border = "1px solid rgba(229,175,92,0.7)"; color = "var(--amber)";
+    } else if (isBlocked && !isPast) {
+      bg = "rgba(239,68,68,0.28)"; color = "#fca5a5";
+    } else if (disabled || isPast) {
+      color = "var(--muted)";
+    }
+
+    if (isToday && !isCI && !isCO && !inRange) border = "1px solid rgba(229,175,92,0.45)";
+
+    return (
+      <button key={date} type="button" disabled={disabled} onClick={() => pick(date)}
+        style={{
+          padding: "0.42rem 0", borderRadius: "0.375rem", fontSize: "0.8rem",
+          fontWeight: isCI || isCO || isToday ? 700 : 400,
+          background: bg, color, border,
+          opacity: isPast ? 0.3 : (disabled && !isConflictInRange) ? 0.4 : 1,
+          cursor: disabled ? "not-allowed" : "pointer",
+          position: "relative", textAlign: "center",
+        }}>
+        {Number(date.slice(8))}
+        {isBusy && (
+          <span style={{
+            position: "absolute", bottom: "2px", left: "50%",
+            transform: "translateX(-50%)",
+            width: "3px", height: "3px", borderRadius: "50%",
+            background: "var(--amber)",
+          }} />
+        )}
+      </button>
+    );
   }
 
   return (
@@ -121,79 +188,29 @@ export default function DateRangePicker({ checkIn, checkOut, blockedDates, busyD
       </div>
 
       {/* כותרות ימים */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", textAlign: "center" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr) 2.8rem", textAlign: "center" }}>
         {DAYS_HE.map(d => (
           <div key={d} style={{ fontSize: "0.68rem", color: "var(--muted)", paddingBottom: "0.2rem" }}>{d}</div>
         ))}
+        <div style={{ fontSize: "0.55rem", color: "#60a5fa", paddingBottom: "0.2rem", textAlign: "center" }}>פרשה</div>
       </div>
 
-      {/* גריד ימים */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "2px" }}>
-        {cells.map((date, i) => {
-          if (!date) return <div key={`e${i}`} />;
-
-          const isPast = date < today;
-          const isBlocked = blockedDates.has(date);
-          const isBusy = !isBlocked && busyDates.has(date);
-          const isCI = date === checkIn;
-          const isCO = date === checkOut;
-          const inRange = !!(checkIn && checkOut && date > checkIn && date < checkOut);
-          const isConflictInRange = inRange && isBlocked;
-          const isMaxCO = !!(date === maxCheckOut && isSelectingOut);
-          const isToday = date === today;
-
-          let disabled: boolean;
-          if (isSelectingOut) {
-            disabled = date <= checkIn || !!(maxCheckOut && date > maxCheckOut);
-          } else {
-            disabled = isPast || (isBlocked && !isConflictInRange);
-          }
-
-          let bg = "transparent";
-          let color = "var(--foreground)";
-          let border = "none";
-
-          if (isCI || isCO) {
-            bg = "var(--amber)"; color = "#1a1000";
-          } else if (isConflictInRange) {
-            bg = "rgba(239,68,68,0.45)"; color = "#fca5a5";
-          } else if (inRange) {
-            bg = "rgba(229,175,92,0.28)";
-          } else if (isMaxCO) {
-            border = "1px solid rgba(229,175,92,0.7)"; color = "var(--amber)";
-          } else if (isBlocked && !isPast) {
-            bg = "rgba(239,68,68,0.28)"; color = "#fca5a5";
-          } else if (disabled || isPast) {
-            color = "var(--muted)";
-          }
-
-          if (isToday && !isCI && !isCO && !inRange) border = "1px solid rgba(229,175,92,0.45)";
-
+      {/* שורות ימים + פרשה */}
+      <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+        {rows.map((row, rowIdx) => {
+          const saturday = row[6];
+          const parsha = saturday ? getParsha(saturday) : null;
           return (
-            <button key={date} type="button" disabled={disabled} onClick={() => pick(date)}
-              style={{
-                padding: "0.42rem 0",
-                borderRadius: "0.375rem",
-                fontSize: "0.8rem",
-                fontWeight: isCI || isCO || isToday ? 700 : 400,
-                background: bg,
-                color,
-                border,
-                opacity: isPast ? 0.3 : (disabled && !isConflictInRange) ? 0.4 : 1,
-                cursor: disabled ? "not-allowed" : "pointer",
-                position: "relative",
-                textAlign: "center",
-              }}>
-              {Number(date.slice(8))}
-              {isBusy && (
-                <span style={{
-                  position: "absolute", bottom: "2px", left: "50%",
-                  transform: "translateX(-50%)",
-                  width: "3px", height: "3px", borderRadius: "50%",
-                  background: "var(--amber)",
-                }} />
-              )}
-            </button>
+            <div key={rowIdx} style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr) 2.8rem", gap: "2px", alignItems: "center" }}>
+              {row.map((date, i) => renderDay(date, i))}
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0 2px", minHeight: "1.6rem" }}>
+                {parsha && (
+                  <span style={{ fontSize: "0.5rem", color: "#60a5fa", lineHeight: 1.25, textAlign: "center", display: "block" }}>
+                    {parsha}
+                  </span>
+                )}
+              </div>
+            </div>
           );
         })}
       </div>
