@@ -18,7 +18,7 @@ export default function RegisterPage() {
     venue_name: "",
     phone_primary: "",
     phone_secondary: "",
-    mattress_price: "",
+    units_count: "",
   });
 
   function update(field: string, value: string) {
@@ -41,7 +41,7 @@ export default function RegisterPage() {
           venue_name: form.venue_name,
           phone_primary: form.phone_primary,
           phone_secondary: form.phone_secondary,
-          mattress_price: parseFloat(form.mattress_price) || 0,
+          units_count: parseInt(form.units_count) || 1,
         },
       },
     });
@@ -51,6 +51,12 @@ export default function RegisterPage() {
       setLoading(false);
       return;
     }
+
+    await fetch("/api/complete-registration", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ phone: form.phone_primary }),
+    });
 
     router.push("/register/success");
   }
@@ -145,14 +151,14 @@ export default function RegisterPage() {
             />
           </Field>
 
-          <Field label="מחיר מזרון (₪)">
+          <Field label="כמה יחידות אירוח יש לך?">
             <input
               type="number"
-              value={form.mattress_price}
-              onChange={(e) => update("mattress_price", e.target.value)}
+              value={form.units_count}
+              onChange={(e) => update("units_count", e.target.value)}
               required
-              placeholder="100"
-              min={0}
+              placeholder="1"
+              min={1}
             />
           </Field>
         </section>

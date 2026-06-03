@@ -18,6 +18,7 @@ interface Unit {
 
 interface Props {
   venueId: string;
+  unitsLimit: number;
   initialUnits: Unit[];
 }
 
@@ -41,7 +42,7 @@ const INPUT_STYLE = {
 
 type FormState = typeof EMPTY_FORM;
 
-export default function UnitsManager({ venueId, initialUnits }: Props) {
+export default function UnitsManager({ venueId, unitsLimit, initialUnits }: Props) {
   const [units, setUnits] = useState<Unit[]>(
     [...initialUnits].sort((a, b) => a.sort_order - b.sort_order)
   );
@@ -191,6 +192,12 @@ export default function UnitsManager({ venueId, initialUnits }: Props) {
             isNew
             hasWholeVenue={hasWholeVenue}
           />
+        ) : unitsLimit > 0 && units.length >= unitsLimit ? (
+          <div className="w-full py-3 px-4 rounded-xl text-sm text-center"
+            style={{ background: "rgba(229,175,92,0.06)", border: "1px dashed rgba(229,175,92,0.3)", color: "var(--muted)" }}>
+            הגעת למגבלת {unitsLimit} יחידות —{" "}
+            <span style={{ color: "var(--amber)" }}>לשדרוג פנה לתמיכה</span>
+          </div>
         ) : (
           <button onClick={startAdd}
             className="w-full py-3 rounded-xl text-sm font-medium flex items-center justify-center gap-2"

@@ -18,9 +18,11 @@ export default async function DashboardPage() {
   if (!user) redirect("/login");
 
   const [{ data: profile }, { data: venue }] = await Promise.all([
-    supabase.from("users").select("full_name, role").eq("id", user.id).single(),
+    supabase.from("users").select("full_name, role, status").eq("id", user.id).single(),
     supabase.from("venues").select("id, name").eq("owner_id", user.id).single(),
   ]);
+
+  if (profile?.status === "pending" && profile?.role !== "admin") redirect("/pending");
 
   const today = new Date();
   const todayStr = today.toISOString().split("T")[0];

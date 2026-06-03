@@ -12,7 +12,7 @@ export default async function SettingsPage() {
 
   const { data: venue } = await supabase
     .from("venues")
-    .select("id, name, phone_primary, phone_secondary, email, mattress_price, package_type")
+    .select("id, name, phone_primary, phone_secondary, email, mattress_price, package_type, units_limit")
     .eq("owner_id", user.id)
     .single();
 
@@ -91,6 +91,7 @@ export default async function SettingsPage() {
         </div>
         <UnitsManager
           venueId={venue.id}
+          unitsLimit={venue.units_limit ?? 0}
           initialUnits={(units ?? []).map((u) => ({
             ...u,
             weekday_price: Number(u.weekday_price),

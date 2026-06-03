@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import ProductShowcase from "./ProductShowcase";
 
 const BG = "#0c0e1c";
 const AMBER = "#e5af5c";
@@ -11,9 +12,11 @@ const MUTED = "#7a8299";
 const TEXT = "#f0f0f5";
 
 // טיפוגרפיה קבועה
-const FS_H1 = "1.6rem";     // כותרת ראשית
-const FS_H2 = "1.05rem";    // כותרת משנית / תיאור
-const FS_BODY = "0.85rem";  // גוף
+const FS_H1 = "1.6rem";        // כותרת Hero
+const FS_H2 = "1.45rem";       // כותרת סקשן
+const FS_SUBTITLE = "1rem";    // תת-כותרת / תיאור
+const FS_BODY = "0.88rem";     // גוף, קלט, כרטיסיות
+const FS_LABEL = "0.78rem";    // תוויות, כיתובים, פוטר
 
 
 export default function LandingPage() {
@@ -22,6 +25,7 @@ export default function LandingPage() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   async function handleSubmit(e: { preventDefault(): void }) {
     e.preventDefault();
@@ -38,7 +42,7 @@ export default function LandingPage() {
   }
 
   return (
-    <div dir="rtl" style={{ background: BG, color: TEXT, minHeight: "100vh", fontFamily: "inherit" }}>
+    <div dir="rtl" style={{ background: BG, color: TEXT, minHeight: "100vh", fontFamily: "'Heebo', sans-serif" }}>
       <style>{`@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&family=Cormorant+Garamond:wght@600&display=swap');`}</style>
 
 
@@ -64,7 +68,6 @@ export default function LandingPage() {
 
         {/* Main headline */}
         <h1 style={{
-          fontFamily: "'Heebo', sans-serif",
           fontSize: FS_H1, fontWeight: 800,
           lineHeight: 1.3, margin: "0 0 0", maxWidth: 460,
         }}>
@@ -79,7 +82,7 @@ export default function LandingPage() {
         </div>
 
         {/* Description */}
-        <p style={{ fontFamily: "'Heebo', sans-serif", fontWeight: 400, color: MUTED, fontSize: FS_H2, lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
+        <p style={{ fontWeight: 400, color: MUTED, fontSize: FS_SUBTITLE, lineHeight: 1.85, maxWidth: 360, margin: "0 auto 2rem" }}>
           מערכת חכמה לבעלי מתחמי אירוח שמאפשרת לנהל את העסק בראש שקט.<br />
           פחות זמן על ניהול שוטף.{" "}
           <span style={{ color: AMBER, fontWeight: 600 }}>יותר זמן לארח.</span>
@@ -129,7 +132,7 @@ export default function LandingPage() {
           background: `linear-gradient(135deg, ${AMBER_LIGHT}, ${AMBER})`,
           color: "#1a1000",
           padding: "1rem 2.5rem", borderRadius: "4rem",
-          fontWeight: 700, fontSize: "1.05rem", textDecoration: "none",
+          fontWeight: 700, fontSize: FS_SUBTITLE, textDecoration: "none",
           boxShadow: "0 4px 32px rgba(212,168,67,0.3)",
         }}>
           מעניין אותי
@@ -137,32 +140,66 @@ export default function LandingPage() {
         </a>
       </section>
 
-      {/* ── Pain ───────────────────────────────────────────────── */}
-      <section style={{
-        padding: "3rem 1.25rem",
-        background: "linear-gradient(180deg, rgba(212,168,67,0.03) 0%, transparent 100%)",
-        borderTop: `1px solid ${BORDER}`,
-      }}>
-        <div style={{ maxWidth: 480, margin: "0 auto" }}>
-          <p style={{ textAlign: "center", color: MUTED, fontSize: "0.8rem", marginBottom: "0.4rem", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase" }}>
-            מכירה את זה?
+      <ProductShowcase />
+
+      {/* ── Who is it for? ─────────────────────────────────── */}
+      <section style={{ position: "relative", padding: "3rem 1.25rem 3.25rem", borderTop: `1px solid ${BORDER}`, overflow: "hidden" }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/icons/tzimar.png"
+          alt=""
+          aria-hidden="true"
+          style={{
+            position: "absolute", inset: 0,
+            width: "100%", height: "100%",
+            objectFit: "cover", objectPosition: "center 72%",
+            filter: "blur(0px)",
+            userSelect: "none", pointerEvents: "none",
+          }}
+        />
+        <div style={{
+          position: "absolute", inset: 0,
+          background: "rgba(8, 10, 28, 0.72)",
+        }} />
+        <div style={{ maxWidth: 480, margin: "0 auto", position: "relative", zIndex: 1 }}>
+          <p style={{ textAlign: "center", color: AMBER, fontSize: "1rem", fontWeight: 700, marginBottom: "0.5rem", letterSpacing: "0.06em" }}>
+            Good Night נבנתה במיוחד עבור
           </p>
-          <h2 style={{ textAlign: "center", fontSize: "1.45rem", fontWeight: 800, marginBottom: "2rem" }}>
-            ניהול ידני עולה ביוקר
+          <h2 style={{ textAlign: "center", fontSize: FS_H2, fontWeight: 800, color: TEXT, margin: "0 0 2.75rem" }}>
+            בעלי צימרים ומתחמי אירוח
           </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem" }}>
             {[
-              { icon: "📋", text: "גיליון אקסל מבולגן + הזמנות בוואטסאפ שהולכות לאיבוד" },
-              { icon: "😰", text: "הזמנה כפולה שמתגלה ברגע האחרון — מביכה ועולה כסף" },
-              { icon: "⏰", text: "שעות ניהול ידני בשבוע שיכולות להיות מוקדשות לאורחים" },
-            ].map((p, i) => (
+              {
+                title: "צימר או יחידת אירוח בודדת",
+                desc: "למי שרוצה לנהל פניות, הזמנות ולידים בצורה מסודרת — בלי לפספס אורחים פוטנציאליים ובלי להסתמך על הזיכרון.",
+              },
+              {
+                title: "מתחם אירוח עם מספר יחידות",
+                desc: "למי שמתמודד עם ריבוי הזמנות, משימות ותשלומים וצריך תמונת מצב ברורה של כל המתחם במקום אחד.",
+              },
+            ].map((card, i) => (
               <div key={i} style={{
-                display: "flex", alignItems: "center", gap: "1rem",
-                background: CARD, border: `1px solid ${BORDER}`,
-                borderRadius: "1rem", padding: "1rem 1.25rem",
+                display: "flex", gap: "1rem", alignItems: "flex-start",
+                background: "linear-gradient(135deg, rgba(24,28,54,0.42) 0%, rgba(30,36,69,0.42) 100%)",
+                backdropFilter: "blur(10px)",
+                WebkitBackdropFilter: "blur(10px)",
+                border: "1px solid rgba(255,255,255,0.15)",
+                borderRadius: "1.1rem", padding: "0.65rem 1.1rem",
+                boxShadow: "0 4px 28px rgba(0,0,0,0.5)",
               }}>
-                <span style={{ fontSize: "1.3rem", flexShrink: 0 }}>{p.icon}</span>
-                <p style={{ fontSize: "0.87rem", color: MUTED, lineHeight: 1.65, margin: 0 }}>{p.text}</p>
+                <div style={{
+                  width: 46, height: 46, borderRadius: "0.65rem", flexShrink: 0,
+                  background: "rgba(212,168,67,0.1)",
+                  border: `1px solid rgba(212,168,67,0.28)`,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>
+                  <span style={{ color: AMBER, fontSize: "1.5rem", fontWeight: 700, lineHeight: 1 }}>✓</span>
+                </div>
+                <div>
+                  <p style={{ fontWeight: 700, fontSize: FS_BODY, margin: "0 0 0.2rem" }}>{card.title}</p>
+                  <p style={{ color: MUTED, fontSize: FS_BODY, lineHeight: 1.6, margin: 0 }}>{card.desc}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -172,18 +209,46 @@ export default function LandingPage() {
       {/* ── Features ───────────────────────────────────────────── */}
       <section style={{ padding: "3rem 1.25rem", borderTop: `1px solid ${BORDER}` }}>
         <div style={{ maxWidth: 480, margin: "0 auto" }}>
-          <p style={{ textAlign: "center", color: AMBER, fontSize: "0.8rem", fontWeight: 700, marginBottom: "0.4rem", letterSpacing: "0.06em" }}>
-            הפתרון
+          <p style={{ textAlign: "center", color: AMBER, fontSize: "1rem", fontWeight: 700, marginBottom: "0.4rem", letterSpacing: "0.06em" }}>
+            למה דווקא Good Night?
           </p>
-          <h2 style={{ textAlign: "center", fontSize: "1.45rem", fontWeight: 800, marginBottom: "2rem" }}>
-            כל מה שצריך, במקום אחד
+          <h2 style={{ textAlign: "center", fontSize: FS_H2, fontWeight: 800, marginBottom: "2rem" }}>
+            יותר סדר. פחות התעסקות.
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {[
-              { icon: "📅", title: "יומן תפוסה חכם", desc: "ראי את כל המתחם בהצצה — מי נכנס, מי יוצא, מה פנוי" },
-              { icon: "⚡", title: "פעולות מהירות", desc: "אישור, גביה, ביטול — בלחיצה אחת, בלי לבזבז זמן" },
-              { icon: "⚠️", title: "זיהוי חפיפות אוטומטי", desc: "המערכת מתריעה כשיש הזמנות חופפות — לפני שזה הופך לבעיה" },
-              { icon: "📱", title: "מהטלפון, מכל מקום", desc: "עובד מושלם על מובייל — בלי מחשב, בלי כבלים" },
+              {
+                icon: (
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e5af5c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                ),
+                title: "הכל במקום אחד", desc: "הזמנות, תפוסה, תשלומים ומשימות במערכת אחת.",
+              },
+              {
+                icon: (
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e5af5c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                ),
+                title: "יותר זמן לפיתוח העסק", desc: "פחות מעקבים ידניים ויותר זמן לאירוח ולפיתוח העסק.",
+              },
+              {
+                icon: (
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e5af5c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                  </svg>
+                ),
+                title: "שליטה בפרטים הקטנים", desc: "פניות, משימות ותשלומים שלא נופלים בין הכיסאות.",
+              },
+              {
+                icon: (
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e5af5c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+                  </svg>
+                ),
+                title: "תמונת מצב ברורה", desc: "לדעת בכל רגע מה קורה במתחם בלי לחפש מידע.",
+              },
             ].map((f, i) => (
               <div key={i} style={{
                 display: "flex", gap: "1rem", alignItems: "flex-start",
@@ -196,13 +261,12 @@ export default function LandingPage() {
                   background: "rgba(212,168,67,0.1)",
                   border: `1px solid rgba(212,168,67,0.22)`,
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: "1.15rem",
                 }}>
                   {f.icon}
                 </div>
                 <div>
-                  <p style={{ fontWeight: 700, marginBottom: "0.2rem", fontSize: "0.9rem" }}>{f.title}</p>
-                  <p style={{ color: MUTED, fontSize: "0.82rem", lineHeight: 1.6, margin: 0 }}>{f.desc}</p>
+                  <p style={{ fontWeight: 700, marginBottom: "0.2rem", fontSize: FS_BODY }}>{f.title}</p>
+                  <p style={{ color: MUTED, fontSize: FS_BODY, lineHeight: 1.6, margin: 0 }}>{f.desc}</p>
                 </div>
               </div>
             ))}
@@ -210,93 +274,150 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── Dashboard Preview Intro ────────────────────────────── */}
-      <section style={{
-        padding: "4.5rem 1.25rem 4.75rem",
-        borderTop: `1px solid ${BORDER}`,
-        background: "linear-gradient(180deg, rgba(244,212,132,0.025) 0%, rgba(12,14,28,0) 58%)",
-      }}>
-        <div style={{ maxWidth: 560, margin: "0 auto", textAlign: "center" }}>
-          <div style={{ margin: "0 auto 2rem", width: "min(340px, 86%)" }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/icons/divider-glow.svg" alt="" style={{ width: "100%", height: "auto", opacity: 0.82 }} />
-          </div>
-
-          <p style={{
-            color: "#D4A843",
-            fontSize: "0.78rem",
-            fontWeight: 800,
-            letterSpacing: "0.08em",
-            margin: "0 0 0.65rem",
-          }}>
-            כך זה נראה בפועל
-          </p>
-
-          <h2 style={{
-            color: "#f8fafc",
-            fontSize: "clamp(1.55rem, 7vw, 2.35rem)",
-            fontWeight: 800,
-            lineHeight: 1.28,
-            maxWidth: 540,
-            margin: "0 auto 1rem",
-          }}>
-            כל מה שצריך כדי לנהל אירוח{" "}
-            <span style={{ color: "#F4D484" }}>בראש שקט</span>
-          </h2>
-
-          <p style={{
-            color: "#8f9ab3",
-            fontSize: "0.96rem",
-            lineHeight: 1.85,
-            maxWidth: 430,
-            margin: "0 auto",
-          }}>
-            הזמנות, תפוסה, תשלומים ומשימות — במסך אחד ברור ונוח לשימוש.
-          </p>
-        </div>
-      </section>
-
       {/* ── Pricing ────────────────────────────────────────────── */}
       <section style={{ padding: "3rem 1.25rem", borderTop: `1px solid ${BORDER}` }}>
         <div style={{ maxWidth: 480, margin: "0 auto" }}>
-          <h2 style={{ textAlign: "center", fontSize: "1.45rem", fontWeight: 800, marginBottom: "0.4rem" }}>
-            מחירון פשוט וברור
+          <h2 style={{ textAlign: "center", fontSize: FS_H2, fontWeight: 800, marginBottom: "0.4rem" }}>
+            עד כאן נשמע מבטיח,<br /><span style={{ color: AMBER }}>תכל&apos;ס כמה יעלה לי?</span>
           </h2>
-          <p style={{ textAlign: "center", color: MUTED, fontSize: "0.85rem", marginBottom: "2rem" }}>
-            ₪0 עמלה על הזמנה · ללא הפתעות
+          <p style={{ textAlign: "center", color: MUTED, fontSize: FS_BODY, marginBottom: "0.75rem" }}>
+            בלי הפתעות. בלי חבילות מסובכות.
           </p>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-            <div style={{ background: CARD, border: `1px solid ${BORDER}`, borderRadius: "1.25rem", padding: "1.35rem" }}>
-              <p style={{ color: MUTED, fontSize: "0.78rem", marginBottom: "0.4rem", fontWeight: 600 }}>הקמה חד-פעמית</p>
-              <p style={{ fontSize: "1.85rem", fontWeight: 800, color: TEXT, margin: "0 0 0.25rem" }}>₪1,990</p>
-              <p style={{ color: MUTED, fontSize: "0.8rem", margin: 0 }}>הגדרת מערכת מלאה + הדרכה אישית</p>
+          <p style={{ textAlign: "center", color: MUTED, fontSize: FS_BODY, lineHeight: 1.7, marginBottom: "2rem" }}>
+            Good Night מתומחרת לפי מספר יחידות האירוח במתחם,<br /><span style={{ color: AMBER }}>כך שאתם משלמים רק על מה שאתם באמת צריכים.</span>
+          </p>
+          {/* כותרת משנה */}
+          <p style={{ textAlign: "center", color: MUTED, fontSize: "1rem", fontWeight: 700, marginBottom: "2rem", letterSpacing: "0.04em" }}>
+            הצטרפות בשני שלבים:
+          </p>
+
+          {/* תרשים זרימה */}
+          <div style={{ display: "flex", flexDirection: "row", alignItems: "stretch", gap: 0 }}>
+            {/* Card 1 – הצטרפות */}
+            <div style={{ flex: 1, background: `linear-gradient(135deg, rgba(212,168,67,0.07) 0%, rgba(212,168,67,0.02) 100%)`, border: `2px solid ${AMBER}`, borderRadius: "1.25rem", padding: "1rem" }}>
+              {/* מספר שלב */}
+              <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.75rem" }}>
+                <div style={{
+                  width: 26, height: 26, borderRadius: "50%",
+                  background: AMBER, color: "#000",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: "0.78rem", fontWeight: 800, flexShrink: 0,
+                }}>1</div>
+                <p style={{ color: MUTED, fontSize: "1rem", fontWeight: 700, margin: 0 }}>כניסה למערכת</p>
+              </div>
+              <p style={{ fontSize: "1.85rem", fontWeight: 800, color: TEXT, margin: "0 0 0.15rem" }}>₪1,990</p>
+              <p style={{ color: MUTED, fontSize: FS_BODY, marginBottom: "1rem" }}>חד פעמי</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.45rem" }}>
+                {["פתיחת חשבון", "ליווי והדרכה ראשונית", "התאמת המערכת למתחם שלכם", "תמיכה בתקופת העלייה לאוויר"].map((item) => (
+                  <p key={item} style={{ color: MUTED, fontSize: FS_BODY, margin: 0, display: "flex", gap: "0.5rem" }}>
+                    <span style={{ color: AMBER, fontWeight: 700 }}>✔</span>{item}
+                  </p>
+                ))}
+              </div>
             </div>
+
+            {/* מרווח */}
+            <div style={{ width: "0.75rem", flexShrink: 0 }} />
+
+            {/* Card 2 – מנוי */}
             <div style={{
+              flex: 1,
               background: `linear-gradient(135deg, rgba(212,168,67,0.07) 0%, rgba(212,168,67,0.02) 100%)`,
               border: `2px solid ${AMBER}`,
-              borderRadius: "1.25rem", padding: "1.35rem", position: "relative",
+              borderRadius: "1.25rem", padding: "1rem", position: "relative",
             }}>
-              <div style={{
-                position: "absolute", top: "-0.7rem", right: "1rem",
-                background: AMBER, color: "#1a1000",
-                fontSize: "0.68rem", fontWeight: 800,
-                padding: "0.2rem 0.75rem", borderRadius: "2rem",
-              }}>
-                ✦ הכי פופולרי
+              {/* מספר שלב */}
+              <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.75rem" }}>
+                <div style={{
+                  width: 26, height: 26, borderRadius: "50%",
+                  background: AMBER, color: "#000",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: "0.78rem", fontWeight: 800, flexShrink: 0,
+                }}>2</div>
+                <p style={{ color: MUTED, fontSize: "1rem", fontWeight: 700, margin: 0 }}>מנוי חודשי</p>
               </div>
-              <p style={{ color: MUTED, fontSize: "0.78rem", marginBottom: "0.4rem", fontWeight: 600 }}>מנוי חודשי</p>
-              <p style={{ fontSize: "1.85rem", fontWeight: 800, color: AMBER, margin: "0 0 0.25rem" }}>
-                ₪199<span style={{ fontSize: "0.88rem", fontWeight: 400, color: MUTED }}>/חודש</span>
+              <p style={{ fontSize: "1.85rem", fontWeight: 800, color: AMBER, margin: "0 0 0.15rem" }}>
+                ₪99<span style={{ fontSize: FS_BODY, fontWeight: 400, color: MUTED }}> ליחידה הראשונה</span>
               </p>
-              <p style={{ color: MUTED, fontSize: "0.8rem", margin: 0 }}>ניהול הזמנות, תשלומים, יומן תפוסה</p>
-            </div>
-            <div style={{ background: CARD, border: `1px solid ${BORDER}`, borderRadius: "1.25rem", padding: "1.35rem" }}>
-              <p style={{ color: MUTED, fontSize: "0.78rem", marginBottom: "0.4rem", fontWeight: 600 }}>מנוי שנתי</p>
-              <p style={{ fontSize: "1.85rem", fontWeight: 800, color: TEXT, margin: "0 0 0.25rem" }}>
-                ₪1,990<span style={{ fontSize: "0.88rem", fontWeight: 400, color: MUTED }}>/שנה</span>
+              <p style={{ color: MUTED, fontSize: FS_BODY, marginBottom: "1rem" }}>
+                ₪30 לכל יחידה נוספת
               </p>
-              <p style={{ color: "#4ade80", fontSize: "0.8rem", fontWeight: 600, margin: 0 }}>✓ חודשיים מתנה לעומת מנוי חודשי</p>
+              <p style={{ color: MUTED, fontSize: FS_LABEL, fontWeight: 600, marginBottom: "0.45rem" }}>לדוגמה:</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}>
+                {[
+                  ["יחידה אחת", "99 ₪"],
+                  ["2 יחידות", "129 ₪"],
+                  ["3 יחידות", "159 ₪"],
+                  ["5 יחידות", "219 ₪"],
+                ].map(([label, price]) => (
+                  <div key={label} style={{ display: "flex", justifyContent: "space-between", fontSize: FS_BODY, color: MUTED }}>
+                    <span>{label}</span>
+                    <span style={{ fontWeight: 600, color: TEXT }}>{price}</span>
+                  </div>
+                ))}
+              </div>
             </div>
+          </div>
+            {/* שורה תחתונה */}
+            <p style={{ color: "#8e96ab", fontSize: "1rem", lineHeight: 1.7, textAlign: "center", margin: "2rem 0 0", fontWeight: 600 }}>
+              פתרון ייעודי לעולם הצימרים והאירוח,<br />בעלות נמוכה משמעותית<br />מהקמה ופיתוח של מערכת מותאמת אישית.
+            </p>
+        </div>
+      </section>
+
+      {/* ── FAQ ────────────────────────────────────────────────── */}
+      <section style={{ padding: "3rem 1.25rem", borderTop: `1px solid ${BORDER}` }}>
+        <div style={{ maxWidth: 480, margin: "0 auto" }}>
+          <h2 style={{ textAlign: "center", fontSize: FS_H2, fontWeight: 800, marginBottom: "2rem" }}>
+            שאלות נפוצות
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+            {[
+              {
+                q: "האם המערכת מתאימה גם ליחידת אירוח אחת?",
+                a: "כן. המערכת מתאימה גם לבעלי יחידת אירוח בודדת שמעוניינים לנהל את הפעילות בצורה מסודרת.",
+              },
+              {
+                q: "האם אפשר לנהל מספר יחידות במקביל?",
+                a: "כן. המערכת נבנתה במיוחד כדי לאפשר תמונת מצב ברורה של כל יחידות האירוח במקום אחד.",
+              },
+              {
+                q: "האם צריך ידע טכני?",
+                a: "לא. המערכת תוכננה להיות פשוטה ונוחה לשימוש, גם ללא רקע טכנולוגי.",
+              },
+              {
+                q: "האם המערכת מותאמת לנייד?",
+                a: "כן. ניתן לנהל את המתחם מכל מקום באמצעות הטלפון הנייד.",
+              },
+              {
+                q: "האם המערכת מזהה תאריך עברי?",
+                a: `כן, המערכת גם מזהה מה הפרשה בכל שבת כדי לסייע בזיהוי סופ"ש מבוקש.`,
+              },
+              {
+                q: "כמה זמן לוקח להתחיל?",
+                a: "לאחר ההצטרפות וההדרכה הראשונית, ניתן להתחיל לעבוד במערכת תוך זמן קצר.",
+              },
+            ].map(({ q, a }, i) => (
+              <div
+                key={q}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                style={{
+                  background: CARD, border: `1px solid ${openFaq === i ? AMBER : BORDER}`,
+                  borderRadius: "1.25rem", padding: "1.25rem", cursor: "pointer",
+                  transition: "border-color 0.2s",
+                }}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "0.5rem" }}>
+                  <p style={{ fontWeight: 700, fontSize: FS_BODY, color: AMBER, margin: 0 }}>{q}</p>
+                  <span style={{ color: AMBER, fontSize: "1.1rem", flexShrink: 0, transition: "transform 0.2s", transform: openFaq === i ? "rotate(180deg)" : "rotate(0deg)" }}>
+                    ▾
+                  </span>
+                </div>
+                {openFaq === i && (
+                  <p style={{ fontSize: FS_BODY, color: MUTED, margin: "0.75rem 0 0", lineHeight: 1.7 }}>{a}</p>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -308,11 +429,11 @@ export default function LandingPage() {
         borderTop: `1px solid ${BORDER}`,
       }}>
         <div style={{ maxWidth: 420, margin: "0 auto" }}>
-          <h2 style={{ textAlign: "center", fontSize: "1.45rem", fontWeight: 800, marginBottom: "0.4rem" }}>
-            רוצה לשמוע עוד?
+          <h2 style={{ textAlign: "center", fontSize: FS_H2, fontWeight: 800, marginBottom: "0.4rem", color: AMBER }}>
+            לבדיקת התאמה ואפיון צרכים ללא עלות:
           </h2>
-          <p style={{ textAlign: "center", color: MUTED, fontSize: "0.88rem", marginBottom: "2rem" }}>
-            השאירי פרטים ואחזור אלייך תוך יום עסקים
+          <p style={{ textAlign: "center", color: "#8e96ab", fontSize: "1rem", fontWeight: 600, marginBottom: "2rem" }}>
+            כמה פרטים ונחזור אליך בהקדם
           </p>
 
           {sent ? (
@@ -322,48 +443,48 @@ export default function LandingPage() {
             }}>
               <p style={{ fontSize: "2rem", margin: "0 0 0.5rem" }}>✓</p>
               <p style={{ fontWeight: 700, color: "#4ade80", marginBottom: "0.25rem" }}>הפרטים נשלחו!</p>
-              <p style={{ color: MUTED, fontSize: "0.85rem", margin: 0 }}>נחזור אלייך בהקדם</p>
+              <p style={{ color: MUTED, fontSize: FS_BODY, margin: 0 }}>נחזור אלייך בהקדם</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} style={{
-              background: CARD, border: `1px solid ${BORDER}`,
+              background: CARD, border: `2px solid ${AMBER}`,
               borderRadius: "1.25rem", padding: "1.5rem",
               display: "flex", flexDirection: "column", gap: "1rem",
             }}>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
                 <div>
-                  <label style={{ fontSize: "0.78rem", color: MUTED, display: "block", marginBottom: "0.35rem" }}>שם מלא *</label>
+                  <label style={{ fontSize: FS_LABEL, color: MUTED, display: "block", marginBottom: "0.35rem" }}>שם מלא *</label>
                   <input type="text" value={name} onChange={e => setName(e.target.value)}
                     placeholder="שם ומשפחה"
                     style={{
                       width: "100%", padding: "0.7rem 0.9rem",
-                      borderRadius: "0.65rem", fontSize: "0.88rem",
+                      borderRadius: "0.65rem", fontSize: FS_BODY,
                       background: BG, border: `1px solid ${BORDER}`,
                       color: TEXT, outline: "none", boxSizing: "border-box",
                     }} />
                 </div>
                 <div>
-                  <label style={{ fontSize: "0.78rem", color: MUTED, display: "block", marginBottom: "0.35rem" }}>טלפון *</label>
+                  <label style={{ fontSize: FS_LABEL, color: MUTED, display: "block", marginBottom: "0.35rem" }}>טלפון *</label>
                   <input type="tel" value={phone} onChange={e => setPhone(e.target.value)}
                     placeholder="050-0000000"
                     style={{
                       width: "100%", padding: "0.7rem 0.9rem",
-                      borderRadius: "0.65rem", fontSize: "0.88rem",
+                      borderRadius: "0.65rem", fontSize: FS_BODY,
                       background: BG, border: `1px solid ${BORDER}`,
                       color: TEXT, outline: "none", boxSizing: "border-box",
                     }} />
                 </div>
               </div>
-              {error && <p style={{ color: "#f87171", fontSize: "0.82rem", margin: 0 }}>{error}</p>}
+              {error && <p style={{ color: "#f87171", fontSize: FS_BODY, margin: 0 }}>{error}</p>}
               <button type="submit" disabled={loading} style={{
                 background: `linear-gradient(135deg, ${AMBER_LIGHT}, ${AMBER})`,
                 color: "#1a1000", padding: "0.85rem",
-                borderRadius: "0.75rem", fontWeight: 700, fontSize: "0.95rem",
+                borderRadius: "0.75rem", fontWeight: 700, fontSize: FS_BODY,
                 border: "none", cursor: loading ? "not-allowed" : "pointer",
                 opacity: loading ? 0.7 : 1,
                 boxShadow: "0 4px 15px rgba(212,168,67,0.28)",
               }}>
-                {loading ? "שולח..." : "שלחי פרטים ←"}
+                {loading ? "שולח..." : "לתיאום בדיקת התאמה ←"}
               </button>
             </form>
           )}
@@ -374,7 +495,7 @@ export default function LandingPage() {
       <footer style={{ borderTop: `1px solid ${BORDER}`, padding: "1.5rem 1.25rem", textAlign: "center" }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/logo-wide1.neto.svg" alt="Good Night" style={{ height: 36, opacity: 0.45, marginBottom: "0.75rem" }} />
-        <p style={{ color: MUTED, fontSize: "0.78rem", margin: 0 }}>
+        <p style={{ color: MUTED, fontSize: FS_LABEL, margin: 0 }}>
           © 2026 Good Night · כל הזכויות שמורות
         </p>
       </footer>

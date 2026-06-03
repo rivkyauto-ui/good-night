@@ -26,11 +26,11 @@ export default async function AdminPage() {
     { data: unreadMessages },
   ] = await Promise.all([
     admin.from("venues").select(`
-      id, name, status, created_at,
+      id, name, status, created_at, units_limit, subscription_expires_at,
       owner:users!owner_id!left(id, full_name, email, status)
     `).order("created_at", { ascending: false }),
     admin.from("users").select(`
-      id, full_name, email, status, created_at,
+      id, full_name, email, status, created_at, subscription_paid,
       venues(id, name)
     `).eq("status", "pending").eq("role", "owner").order("created_at"),
     admin.from("leads").select("*").order("created_at", { ascending: false }),

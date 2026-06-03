@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="bell-lead-title">
+  <title id="bell-lead-title">Lead inquiry notification bell</title>
+  <defs>
+    <linearGradient id="lb-gold" x1="5" y1="3" x2="19" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D484"/>
+      <stop offset=".48" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#A87018"/>
+    </linearGradient>
+    <filter id="lb-glow" x="-45%" y="-45%" width="190%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.6" flood-color="#D4A843" flood-opacity=".52"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8B5A12" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <g filter="url(#lb-glow)">
+    <g fill="none" stroke="url(#lb-gold)" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Bell body (slightly narrower for arc clearance) -->
+      <path stroke-width="1.8" d="M16.6 10.4c0-2.9-2.1-5.25-4.6-5.25s-4.6 2.35-4.6 5.25C7.4 15.5 5.7 16.6 5.7 16.6h12.6S16.6 15.5 16.6 10.4Z"/>
+      <!-- Clapper -->
+      <path stroke-width="1.8" d="M13.85 18.85a2.08 2.08 0 0 1-3.7 0"/>
+      <!-- Stem -->
+      <path stroke-width="1.25" d="M12 3v1.05"/>
+      <!-- Sound arc left -->
+      <path stroke-width="1.2" d="M5.85 8.3C4.9 9.6 4.4 11.15 4.4 12.8"/>
+      <!-- Sound arc right -->
+      <path stroke-width="1.2" d="M18.15 8.3C19.1 9.6 19.6 11.15 19.6 12.8"/>
+    </g>
+    <!-- Notification badge dot -->
+    <circle cx="17.7" cy="5.15" r="2.2" fill="#D4A843"/>
+    <!-- Badge highlight -->
+    <circle cx="17.1" cy="4.6" r="0.7" fill="#F8E8A0" opacity=".58"/>
+  </g>
+  <!-- Bell body highlight -->
+  <path fill="#F4D484" opacity=".68" d="M8.35 9.2c.3-1.52 1.5-2.57 3.15-2.7"/>
+</svg>

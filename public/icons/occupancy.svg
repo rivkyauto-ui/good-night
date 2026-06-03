@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="occupancy-title">
+  <title id="occupancy-title">Multi-unit occupancy dashboard</title>
+  <defs>
+    <linearGradient id="oc-gold" x1="4" y1="4" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D88A"/>
+      <stop offset=".5" stop-color="#D4A843"/>
+      <stop offset="1" stop-color="#966115"/>
+    </linearGradient>
+    <filter id="oc-glow" x="-40%" y="-45%" width="180%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#D4A843" flood-opacity=".48"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2.8" flood-color="#8B5A12" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <g filter="url(#oc-glow)">
+    <!-- Outer frame -->
+    <rect x="2.8" y="2.8" width="18.4" height="18.4" rx="2.3" fill="none" stroke="url(#oc-gold)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Header separator -->
+    <line x1="2.8" y1="7.85" x2="21.2" y2="7.85" stroke="url(#oc-gold)" stroke-width="0.9"/>
+    <!-- Header unit status dots: 2 booked (filled), 1 available (outline) -->
+    <circle cx="6.5" cy="5.33" r="1.08" fill="#D4A843"/>
+    <circle cx="10.1" cy="5.33" r="1.08" fill="#D4A843"/>
+    <circle cx="13.7" cy="5.33" r="1.08" fill="none" stroke="url(#oc-gold)" stroke-width="1.1"/>
+    <!-- Row 1 — unit square + occupancy bar (65%) -->
+    <rect x="4.5" y="9.5" width="2.1" height="2.1" rx="0.4" fill="none" stroke="url(#oc-gold)" stroke-width="1.25"/>
+    <rect x="7.9" y="9.95" width="11.4" height="1.35" rx="0.68" fill="#D4A843" opacity=".17"/>
+    <rect x="7.9" y="9.95" width="7.4" height="1.35" rx="0.68" fill="#D4A843" opacity=".82"/>
+    <!-- Row 2 — unit square + occupancy bar (85%) -->
+    <rect x="4.5" y="13.1" width="2.1" height="2.1" rx="0.4" fill="none" stroke="url(#oc-gold)" stroke-width="1.25"/>
+    <rect x="7.9" y="13.55" width="11.4" height="1.35" rx="0.68" fill="#D4A843" opacity=".17"/>
+    <rect x="7.9" y="13.55" width="9.7" height="1.35" rx="0.68" fill="#D4A843" opacity=".82"/>
+    <!-- Row 3 — unit square + occupancy bar (42%) -->
+    <rect x="4.5" y="16.7" width="2.1" height="2.1" rx="0.4" fill="none" stroke="url(#oc-gold)" stroke-width="1.25"/>
+    <rect x="7.9" y="17.15" width="11.4" height="1.35" rx="0.68" fill="#D4A843" opacity=".17"/>
+    <rect x="7.9" y="17.15" width="4.8" height="1.35" rx="0.68" fill="#D4A843" opacity=".82"/>
+    <!-- Accent dots at fill bar ends (matching chart.svg style) -->
+    <circle cx="15.3" cy="10.625" r=".82" fill="#F4D484"/>
+    <circle cx="17.6" cy="14.225" r=".82" fill="#F4D484"/>
+    <circle cx="12.7" cy="17.825" r=".82" fill="#D4A843"/>
+  </g>
+</svg>

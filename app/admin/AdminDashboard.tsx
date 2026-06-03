@@ -10,6 +10,8 @@ export interface VenueWithOwner {
   name: string;
   status: string;
   created_at: string;
+  units_limit: number;
+  subscription_expires_at: string | null;
   owner: {
     id: string;
     full_name: string;
@@ -24,6 +26,7 @@ export interface PendingUser {
   email: string;
   status: string;
   created_at: string;
+  subscription_paid: boolean;
   venues: { id: string; name: string }[] | null;
 }
 
@@ -35,6 +38,7 @@ export interface Lead {
   venue_name: string;
   status: string;
   payment_confirmed: boolean;
+  form_filled: boolean;
   admin_notes: string | null;
   created_at: string;
 }
@@ -118,6 +122,7 @@ const USER_STATUS_COLOR: Record<string, string> = {
 const LEAD_STATUS_LABEL: Record<string, string> = {
   new: "חדש",
   in_progress: "בטיפול",
+  registering: "בתהליך רישום",
   client: "לקוח",
   irrelevant: "לא רלוונטי",
 };
@@ -125,6 +130,7 @@ const LEAD_STATUS_LABEL: Record<string, string> = {
 const LEAD_STATUS_COLOR: Record<string, string> = {
   new: "var(--amber)",
   in_progress: "#60a5fa",
+  registering: "#a78bfa",
   client: "#4ade80",
   irrelevant: "#6b7a8d",
 };
@@ -217,7 +223,7 @@ function LeadRow({ lead, selectedLead, activities, activitiesLoading, newType, n
         <input type="checkbox" checked={selectedLead.payment_confirmed} disabled={isPending}
           onChange={(e) => {
             const patch: Partial<Lead> = { payment_confirmed: e.target.checked };
-            if (e.target.checked) patch.status = "client";
+            if (e.target.checked) patch.status = "registering";
             updateLead(selectedLead.id, patch);
           }}
           style={{ accentColor: "#4ade80", width: "1rem", height: "1rem" }} />
@@ -440,13 +446,15 @@ export default function AdminDashboard({
   const [newDate, setNewDate] = useState("");
   const [addingActivity, setAddingActivity] = useState(false);
 
+  const [venuesList, setVenuesList] = useState<VenueWithOwner[]>(venues);
+
   const normalizeOwner = (v: VenueWithOwner) => {
     if (!v.owner) return null;
     return Array.isArray(v.owner) ? (v.owner[0] ?? null) : v.owner;
   };
 
-  const activeVenues = venues.filter((v) => v.status === "active");
-  const filtered = query.trim().length < 1 ? [] : venues.filter((v) => {
+  const activeVenues = venuesList.filter((v) => v.status === "active");
+  const filtered = query.trim().length < 1 ? [] : venuesList.filter((v) => {
     const owner = normalizeOwner(v);
     const q = query.toLowerCase();
     return (
@@ -456,15 +464,53 @@ export default function AdminDashboard({
     );
   });
 
+  const [pendingUsersList, setPendingUsersList] = useState<PendingUser[]>(pendingUsers);
+
+  async function toggleSubscriptionPaid(userId: string, paid: boolean) {
+    startTransition(async () => {
+      const supabase = createClient();
+      await supabase.from("users").update({ subscription_paid: paid }).eq("id", userId);
+      if (paid) {
+        const expiresAt = new Date();
+        expiresAt.setFullYear(expiresAt.getFullYear() + 1);
+        await supabase.from("venues").update({ subscription_expires_at: expiresAt.toISOString() }).eq("owner_id", userId);
+      }
+      setPendingUsersList((p) => p.map((u) => u.id === userId ? { ...u, subscription_paid: paid } : u));
+    });
+  }
+
   async function updateUserStatus(userId: string, status: string) {
     setActionError(null);
     startTransition(async () => {
       const supabase = createClient();
       const { error } = await supabase.from("users").update({ status }).eq("id", userId);
       if (error) { setActionError(error.message); return; }
+      setPendingUsersList((p) => p.filter((u) => u.id !== userId));
       router.refresh();
       setSelected(null);
       setConfirmKey(null);
+    });
+  }
+
+  const [editingLimit, setEditingLimit] = useState<string | null>(null);
+
+  async function renewSubscription(venueId: string, currentExpiry: string | null) {
+    startTransition(async () => {
+      const supabase = createClient();
+      const base = currentExpiry && new Date(currentExpiry) > new Date() ? new Date(currentExpiry) : new Date();
+      base.setFullYear(base.getFullYear() + 1);
+      await supabase.from("venues").update({ subscription_expires_at: base.toISOString() }).eq("id", venueId);
+      setVenuesList((p) => p.map((v) => v.id === venueId ? { ...v, subscription_expires_at: base.toISOString() } : v));
+      setSelected((p) => p ? { ...p, subscription_expires_at: base.toISOString() } : p);
+    });
+  }
+
+  async function updateUnitsLimit(venueId: string, limit: number) {
+    startTransition(async () => {
+      const supabase = createClient();
+      await supabase.from("venues").update({ units_limit: limit }).eq("id", venueId);
+      setSelected((p) => p ? { ...p, units_limit: limit } : p);
+      setEditingLimit(null);
     });
   }
 
@@ -561,19 +607,19 @@ export default function AdminDashboard({
         <div style={CARD}>
           <div className="flex items-center justify-between" style={{ padding: "1rem 1rem 0.75rem" }}>
             <p className="text-base font-semibold">בהמתנה לאישור כניסה</p>
-            {pendingUsers.length > 0 && (
+            {pendingUsersList.length > 0 && (
               <span className="text-xs px-1.5 py-0.5 rounded-full"
                 style={{ background: "var(--amber)", color: "#1a1000" }}>
-                {pendingUsers.length}
+                {pendingUsersList.length}
               </span>
             )}
           </div>
           <div style={{ borderTop: "1px solid var(--card-border)" }} />
-          {pendingUsers.length === 0 ? (
+          {pendingUsersList.length === 0 ? (
             <p className="text-sm text-center py-6" style={{ color: "var(--muted)" }}>אין בקשות ממתינות ✓</p>
           ) : (
             <div>
-              {pendingUsers.map((u, i) => (
+              {pendingUsersList.map((u, i) => (
                 <div key={u.id}>
                   {i > 0 && <div style={{ borderTop: "1px solid var(--card-border)" }} />}
                   <div style={{ padding: "1rem" }}>
@@ -587,10 +633,21 @@ export default function AdminDashboard({
                       )}
                       <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>נרשם: {fmtDate(u.created_at)}</p>
                     </div>
+
+                    {/* מנוי שולם */}
+                    <label className="flex items-center gap-2 mb-3 cursor-pointer text-sm">
+                      <input type="checkbox" checked={u.subscription_paid} disabled={isPending}
+                        onChange={(e) => toggleSubscriptionPaid(u.id, e.target.checked)}
+                        style={{ accentColor: "#4ade80", width: "1rem", height: "1rem" }} />
+                      <span style={{ color: u.subscription_paid ? "#4ade80" : "var(--muted)" }}>
+                        מנוי שולם
+                      </span>
+                    </label>
+
                     <div className="flex gap-2">
-                      <button disabled={isPending} onClick={() => updateUserStatus(u.id, "active")}
+                      <button disabled={isPending || !u.subscription_paid} onClick={() => updateUserStatus(u.id, "active")}
                         className="flex-1 py-2.5 rounded-xl text-sm font-bold"
-                        style={{ background: "#4ade80", color: "#0f1f0f", opacity: isPending ? 0.6 : 1 }}>
+                        style={{ background: u.subscription_paid ? "#4ade80" : "rgba(74,222,128,0.2)", color: "#0f1f0f", opacity: isPending ? 0.6 : 1, cursor: u.subscription_paid ? "pointer" : "not-allowed" }}>
                         אשר
                       </button>
                       <button disabled={isPending} onClick={() => updateUserStatus(u.id, "suspended")}
@@ -604,6 +661,31 @@ export default function AdminDashboard({
               ))}
             </div>
           )}
+
+          {/* לידים בתהליך רישום */}
+          {(() => {
+            const registeringLeads = leads.filter((l) => l.status === "registering");
+            if (registeringLeads.length === 0) return null;
+            return (
+              <>
+                <div style={{ borderTop: "1px solid var(--card-border)", margin: "0 1rem" }} />
+                <div style={{ padding: "0.75rem 1rem 0.25rem" }}>
+                  <p className="text-xs font-semibold mb-2" style={{ color: "#a78bfa" }}>בתהליך רישום</p>
+                  {registeringLeads.map((lead) => (
+                    <div key={lead.id} className="flex items-center justify-between gap-2 py-2">
+                      <div>
+                        <p className="text-sm font-semibold">{lead.full_name}</p>
+                        <p className="text-xs mt-0.5" style={{ color: "var(--muted)" }}>{lead.phone}</p>
+                      </div>
+                      <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: "rgba(167,139,250,0.12)", color: "#a78bfa" }}>
+                        ממתין לרישום
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </>
+            );
+          })()}
         </div>
 
         <div style={CARD}>
@@ -739,6 +821,55 @@ export default function AdminDashboard({
           )}
         </div>
       </section>
+
+      {/* מנויים לחידוש */}
+      {(() => {
+        const now = new Date();
+        const in30 = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+        const expiring = venuesList.filter((v) => {
+          if (!v.subscription_expires_at) return false;
+          const exp = new Date(v.subscription_expires_at);
+          return exp <= in30;
+        }).sort((a, b) => new Date(a.subscription_expires_at!).getTime() - new Date(b.subscription_expires_at!).getTime());
+        if (expiring.length === 0) return null;
+        return (
+          <div style={CARD}>
+            <div className="flex items-center justify-between" style={{ padding: "1rem 1rem 0.75rem" }}>
+              <p className="text-base font-semibold">מנויים לחידוש</p>
+              <span className="text-xs px-1.5 py-0.5 rounded-full" style={{ background: "#ef4444", color: "#fff" }}>
+                {expiring.length}
+              </span>
+            </div>
+            <div style={{ borderTop: "1px solid var(--card-border)" }} />
+            <div>
+              {expiring.map((v, i) => {
+                const exp = new Date(v.subscription_expires_at!);
+                const expired = exp < now;
+                const owner = normalizeOwner(v);
+                return (
+                  <div key={v.id}>
+                    {i > 0 && <div style={{ borderTop: "1px solid var(--card-border)" }} />}
+                    <div className="flex items-center justify-between gap-2" style={{ padding: "0.85rem 1rem" }}>
+                      <div>
+                        <p className="text-sm font-semibold">{v.name}</p>
+                        <p className="text-xs mt-0.5" style={{ color: "var(--muted)" }}>{owner?.full_name ?? "—"}</p>
+                        <p className="text-xs mt-0.5" style={{ color: expired ? "#ef4444" : "var(--amber)" }}>
+                          {expired ? "פג: " : "פג ב: "}{exp.toLocaleDateString("he-IL")}
+                        </p>
+                      </div>
+                      <button disabled={isPending} onClick={() => renewSubscription(v.id, v.subscription_expires_at)}
+                        className="text-xs px-3 py-1.5 rounded-xl font-medium shrink-0"
+                        style={{ background: "rgba(74,222,128,0.1)", color: "#4ade80", border: "1px solid rgba(74,222,128,0.3)", opacity: isPending ? 0.5 : 1 }}>
+                        חדש מנוי
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Leads */}
       <section className="flex flex-col gap-3">
@@ -975,6 +1106,59 @@ export default function AdminDashboard({
                   </div>
                 ))}
               </div>
+              {/* תאריך מנוי */}
+              {(() => {
+                const exp = selected.subscription_expires_at ? new Date(selected.subscription_expires_at) : null;
+                const expired = exp && exp < new Date();
+                return (
+                  <div className="flex items-center justify-between py-2 px-3 rounded-xl mb-1"
+                    style={{ background: "rgba(255,255,255,0.03)", border: "1px solid var(--card-border)" }}>
+                    <span className="text-xs" style={{ color: "var(--muted)" }}>מנוי בתוקף עד</span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-medium" style={{ color: exp ? (expired ? "#ef4444" : "#4ade80") : "var(--muted)" }}>
+                        {exp ? exp.toLocaleDateString("he-IL") : "לא הוגדר"}
+                      </span>
+                      <button disabled={isPending} onClick={() => renewSubscription(selected.id, selected.subscription_expires_at)}
+                        className="text-xs px-2 py-0.5 rounded-lg"
+                        style={{ background: "rgba(74,222,128,0.1)", color: "#4ade80", border: "1px solid rgba(74,222,128,0.25)", opacity: isPending ? 0.5 : 1 }}>
+                        + שנה
+                      </button>
+                    </div>
+                  </div>
+                );
+              })()}
+
+              {/* מגבלת יחידות */}
+              <div className="flex items-center justify-between py-2 px-3 rounded-xl mb-1"
+                style={{ background: "rgba(255,255,255,0.03)", border: "1px solid var(--card-border)" }}>
+                <span className="text-xs" style={{ color: "var(--muted)" }}>מגבלת יחידות</span>
+                {editingLimit !== null ? (
+                  <div className="flex items-center gap-1.5">
+                    <input
+                      type="number" min="0" value={editingLimit}
+                      onChange={(e) => setEditingLimit(e.target.value)}
+                      className="w-14 px-2 py-1 text-xs rounded-lg text-center"
+                      style={{ background: "var(--card-bg)", border: "1px solid var(--amber)", color: "var(--foreground)", outline: "none" }}
+                      onKeyDown={(e) => { if (e.key === "Enter") updateUnitsLimit(selected.id, Number(editingLimit)); if (e.key === "Escape") setEditingLimit(null); }}
+                      autoFocus
+                    />
+                    <button onClick={() => updateUnitsLimit(selected.id, Number(editingLimit))} disabled={isPending}
+                      className="text-xs px-2 py-1 rounded-lg font-medium"
+                      style={{ background: "rgba(229,175,92,0.15)", color: "var(--amber)" }}>✓</button>
+                    <button onClick={() => setEditingLimit(null)}
+                      className="text-xs px-2 py-1 rounded-lg"
+                      style={{ color: "var(--muted)" }}>✕</button>
+                  </div>
+                ) : (
+                  <button onClick={() => setEditingLimit(String(selected.units_limit ?? 0))}
+                    className="flex items-center gap-1.5 text-xs"
+                    style={{ color: selected.units_limit > 0 ? "var(--amber)" : "var(--muted)" }}>
+                    {selected.units_limit > 0 ? `${selected.units_limit} יחידות` : "ללא מגבלה"}
+                    <span style={{ fontSize: "0.65rem", opacity: 0.6 }}>✎</span>
+                  </button>
+                )}
+              </div>
+
               {actionError && (
                 <p className="text-xs px-3 py-2 rounded-xl mb-3"
                   style={{ background: "rgba(239,68,68,0.1)", color: "#ef4444" }}>
